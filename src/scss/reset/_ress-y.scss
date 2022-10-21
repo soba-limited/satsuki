@@ -11,9 +11,6 @@
 body,
 html {
   width: 100%;
-}
-
-body {
   scroll-behavior: smooth;
 }
 
@@ -21,13 +18,13 @@ p,
 li,
 dt,
 dd {
-  font-size: 1.6rem;
+  @include fz(16, 14);
   line-height: 1.8;
   color: #262626;
+  font-weight: 500;
   font-family: 'Noto Sans', 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
     Roboto, 'Segoe UI', 'Helvetica Neue', HelveticaNeue, YuGothic,
     'Yu Gothic Medium', 'Yu Gothic', Verdana, Meiryo, sans-serif;
-  letter-spacing: 0.05em;
 }
 
 a,
@@ -42,11 +39,10 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 400;
+  font-weight: 700;
   font-family: 'Noto Sans', 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
     Roboto, 'Segoe UI', 'Helvetica Neue', HelveticaNeue, YuGothic,
     'Yu Gothic Medium', 'Yu Gothic', Verdana, Meiryo, sans-serif;
-  letter-spacing: 0.05em;
 }
 
 a {
@@ -58,7 +54,6 @@ a,
 span,
 img {
   vertical-align: top;
-  display: inline-block;
 }
 
 figure {

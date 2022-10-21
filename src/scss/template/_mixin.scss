@@ -39,15 +39,11 @@
 }
 
 //font-size
-@mixin fs($pc: 1.6rem, $tab: 1.6rem, $sp: 1.4rem) {
-  font-size: $pc;
-
-  @include tab-small {
-    font-size: $tab;
-  }
+@mixin fz($pc: 16, $sp: 15) {
+  font-size: math.div($pc, 10) + rem;
 
   @include mq(s) {
-    font-size: $sp;
+    font-size: math.div($sp, 10) + rem;
   }
 }
 

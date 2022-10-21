@@ -36,3 +36,11 @@ function my_mwform_value($value, $name)
     return $value;
 }
 add_filter('mwform_value_mw-wp-form-67', 'my_mwform_value', 10, 2);
+
+function delete_jquery()
+{
+    if (!is_admin()) {
+        wp_deregister_script('jquery');
+    }
+}
+add_action('init', 'delete_jquery');

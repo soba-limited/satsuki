@@ -1,23 +1,35 @@
-@include mq(xl) {
-  .xl-none {
-    display: none;
+.dn-max-l {
+  @include mq(l) {
+    display: none !important;
   }
 }
 
-@include mq(l) {
-  .l-none {
-    display: none;
+.dn-max-m {
+  @include mq(m) {
+    display: none !important;
   }
 }
 
-@include mq(m) {
-  .m-none {
-    display: none;
+.dn-max-s {
+  @include mq(s) {
+    display: none !important;
   }
 }
 
-@include mq(s) {
-  .s-none {
-    display: none;
+.dn-min-s {
+  @include mq(rvs) {
+    display: none !important;
+  }
+}
+
+.dn-min-m {
+  @include mq(rvm) {
+    display: none !important;
+  }
+}
+
+.dn-min-l {
+  @include mq(rvl) {
+    display: none !important;
   }
 }

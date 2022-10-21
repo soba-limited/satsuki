@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "gulp scssmin",
-    "webp": "gulp webp"
+    "webp": "gulp webp",
+    "svg": "gulp svg",
+    "image-change": "gulp image-change"
   },
   "keywords": [],
   "author": "",

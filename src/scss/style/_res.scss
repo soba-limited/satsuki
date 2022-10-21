@@ -1,9 +1,14 @@
+$s: 767px;
+$m: 1163px;
+$l: 1365px;
+
 $breakpoint: (
-  s: 'screen and (max-width:640px)',
-  m: 'screen and (max-width:919px)',
-  l: 'screen and (max-width:1439px)',
-  xl: 'screen and (min-width:1440px)',
-  rs: 'screen and (min-width:641px)',
+  s: 'screen and (max-width:#{$s})',
+  m: 'screen and (max-width:#{$m})',
+  l: 'screen and (max-width:#{$l})',
+  rvs: 'screen and (min-width:#{$s+1})',
+  rvm: 'screen and (min-width:#{$m+1})',
+  rvl: 'screen and (min-width:#{$l+1})',
 );
 
 @mixin mq($bp) {

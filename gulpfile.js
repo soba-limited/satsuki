@@ -68,14 +68,23 @@ gulp.task('mincss', function (done) {
 gulp.task('webp', function (done) {
   return gulp
     .src('src/**/*.+(jpg|jpeg|png)')
-    .pipe(isChanged('assets/images'))
+    .pipe(isChanged('assets'))
     .pipe(webp())
-    .pipe(gulp.dest('assets/images'));
+    .pipe(gulp.dest('assets'));
+  done();
+});
+
+gulp.task('svg', function (done) {
+  return gulp.src('src/**/*.+(svg)').pipe(gulp.dest('assets'));
   done();
 });
 
 gulp.task('scssmin', function (done) {
   // scss watch & ftp deploy
   gulp.watch('./src/scss/**/*.scss', gulp.series('scss', 'mincss' /*, 'ftp'*/));
+  done();
+});
+
+gulp.task('image-change', gulp.series('webp', 'svg'), function (done) {
   done();
 });
