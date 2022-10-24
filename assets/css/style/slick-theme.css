@@ -25,8 +25,8 @@
   top: 25%;
   display: block;
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   padding: 0;
   cursor: pointer;
   color: transparent;
@@ -60,14 +60,12 @@
 
 .slick-prev:before,
 .slick-next:before {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1;
-  display: inline-block;
-  opacity: 1;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
 }
 
 .slick-prev {
@@ -75,9 +73,8 @@
 }
 
 .slick-prev:before {
-  content: '<';
-  -webkit-transform: scaleX(.6) translateX(-2px) translateY(1px);
-  transform: scaleX(.6) translateX(-2px) translateY(1px);
+  content: '';
+  background: url('../../images/index/slick-l-arrow.svg') no-repeat;
 }
 
 .slick-next {
@@ -85,9 +82,8 @@
 }
 
 .slick-next:before {
-  content: '>';
-  -webkit-transform: scaleX(.6) translateX(2px) translateY(1px);
-  transform: scaleX(.6) translateX(2px) translateY(1px);
+  content: '';
+  background: url('../../images/index/slick-r-arrow.svg') no-repeat;
 }
 
 /* Dots */

@@ -260,6 +260,10 @@
           </figure>
         </div>
       </article>
+
+      <p class="hover-btn index-features__more">
+        <a href="<?php echo urls('/fueatures');?>">製品をみる</a>
+      </p>
     </div>
   </section>
 

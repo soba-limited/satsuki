@@ -20,7 +20,7 @@ dt,
 dd {
   @include fz(16, 14);
   line-height: 1.8;
-  color: #262626;
+  color: #363636;
   font-weight: 500;
   font-family: 'Noto Sans', 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
     Roboto, 'Segoe UI', 'Helvetica Neue', HelveticaNeue, YuGothic,
@@ -40,6 +40,7 @@ h2,
 h3,
 h4 {
   font-weight: 700;
+  color: #363636;
   font-family: 'Noto Sans', 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
     Roboto, 'Segoe UI', 'Helvetica Neue', HelveticaNeue, YuGothic,
     'Yu Gothic Medium', 'Yu Gothic', Verdana, Meiryo, sans-serif;

@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="46" viewBox="0 0 36 46">
-  <g id="ファイルのアイコン" transform="translate(-53.391)">
-    <path id="パス_51" data-name="パス 51" d="M66.307,0,53.391,13.061V46h36V0Zm20.1,42.98H56.377V14.823H68.05V3.019H86.405Z" fill="#00c8ac"/>
-    <rect id="長方形_1268" data-name="長方形 1268" width="17.718" height="2.327" transform="translate(62.532 21.39)" fill="#00c8ac"/>
-    <rect id="長方形_1269" data-name="長方形 1269" width="17.718" height="2.327" transform="translate(62.532 27.743)" fill="#00c8ac"/>
-    <rect id="長方形_1270" data-name="長方形 1270" width="17.718" height="2.327" transform="translate(62.532 34.097)" fill="#00c8ac"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="グループ_3982" data-name="グループ 3982" transform="translate(-978 -7631)">
+    <g id="楕円形_288" data-name="楕円形 288" transform="translate(978 7631)" fill="none" stroke="#00c8ac" stroke-width="3">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="22.5" fill="none"/>
+    </g>
+    <path id="パス_1163" data-name="パス 1163" d="M0,0H6V16H0Z" transform="translate(999 7642)" fill="#00c8ac"/>
+    <path id="多角形_1" data-name="多角形 1" d="M6,0l6,7H0Z" transform="translate(1008 7662) rotate(180)" fill="#00c8ac"/>
+    <path id="パス_52" data-name="パス 52" d="M3139.179-9190.738v4.9h16.964v-4.9" transform="translate(-2145.68 16852.738)" fill="none" stroke="#00c8ac" stroke-width="3"/>
   </g>
 </svg>

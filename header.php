@@ -32,25 +32,22 @@
         <a href="<?php echo urls('/');?>">STORY</a>
       <p>
       <p class="head__nav--single">
+        <a href="<?php echo urls('/');?>">製品情報</a>
+      <p>
+      <p class="head__nav--single">
         <a href="<?php echo urls('/');?>">導入事例</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">お知らせ</a>
-      <p>
-      <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">製品情報</a>
+        <a href="<?php echo urls('/');?>">保証について</a>
       <p>
       <p class="head__nav--single">
         <a href="<?php echo urls('/');?>">よくある質問</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">会社概要</a>
+        <a href="<?php echo urls('/');?>">お知らせ</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">
-          <i><?php echo svg('common', 'rock');?></i>
-          会員ログイン
-        </a>
+        <a href="<?php echo urls('/');?>">会社概要</a>
       <p>
     </nav>
     <section class="head__btns dn-max-s">
@@ -75,12 +72,6 @@
         <a href="<?php echo urls('/');?>">STORY</a>
       <p>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">導入事例</a>
-      <p>
-      <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">お知らせ</a>
-      <p>
-      <p class="humburger__nav--single">
         <a href="<?php echo urls('/');?>">製品情報</a>
       <p>
       <ul class="humburger__nav--sub">
@@ -95,16 +86,16 @@
         </li>
       </ul>
       <p class="humburger__nav--single">
+        <a href="<?php echo urls('/');?>">導入事例</a>
+      <p>
+      <p class="humburger__nav--single">
         <a href="<?php echo urls('/');?>">よくある質問</a>
       <p>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">会社概要</a>
+        <a href="<?php echo urls('/');?>">お知らせ</a>
       <p>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">
-          <i><?php echo svg('common', 'rock');?></i>
-          会員ログイン
-        </a>
+        <a href="<?php echo urls('/');?>">会社概要</a>
       <p>
     </nav>
     <section class="humburger__btns">

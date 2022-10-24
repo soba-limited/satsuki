@@ -9,9 +9,10 @@ Chart.plugins.register({
         meta.data.forEach(function (element, index) {
           // 値の表示
           ctx.fillStyle = 'rgb(0, 0, 0,0)'; //文字の色
-          var fontSize = 12; //フォントサイズ
+          var fontSize = 15; //フォントサイズ
+          var fontWight = 500;
           var fontStyle = 'normal'; //フォントスタイル
-          var fontFamily = 'Arial'; //フォントファミリー
+          var fontFamily = 'Noto Sans JP'; //フォントファミリー
           ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
 
           var dataString = dataset.data[index].toString();
@@ -63,6 +64,7 @@ $('#chart01').on('inview', function (event, isInView) {
             borderColor: 'rgba(255,0,0,1)', //グラフの線の色
             backgroundColor: 'rgba(255,0,0,0.1)', //グラフの背景色
             data: ['600', '4600', '12600', '25600', '35600'], //横列に並ぶデータ
+            pointRadius: 1,
           },
         ],
       },
