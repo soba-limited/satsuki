@@ -17,7 +17,8 @@ html {
 p,
 li,
 dt,
-dd {
+dd,
+figcaption {
   @include fz(16, 14);
   line-height: 1.8;
   color: #363636;

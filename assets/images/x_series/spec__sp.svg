@@ -1,0 +1,62 @@
+<svg id="コンポーネント_8_1" data-name="コンポーネント 8 – 1" xmlns="http://www.w3.org/2000/svg" width="598" height="988" viewBox="0 0 598 988">
+  <rect id="長方形_1607" data-name="長方形 1607" width="598" height="987.5" fill="#fff"/>
+  <rect id="長方形_1572" data-name="長方形 1572" width="227" height="987.5" fill="#e4f5f2"/>
+  <text id="型番_サイズ_解像度_表示色_輝度_コントラスト_視野角_タッチ方式_点数_保護ガラス_内部カメラ_マイク" data-name="型番
+サイズ解像度表示色輝度コントラスト視野角タッチ方式/点数保護ガラス内部カメラ/マイク" transform="translate(20 24)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">型番</tspan><tspan x="0" y="38">サイズ</tspan><tspan x="0" y="76">解像度</tspan><tspan x="0" y="114">表示色</tspan><tspan x="0" y="152">輝度</tspan><tspan x="0" y="190">コントラスト</tspan><tspan x="0" y="228">視野角</tspan><tspan x="0" y="266">タッチ方式/点数</tspan><tspan x="0" y="304">保護ガラス</tspan><tspan x="0" y="342">内部カメラ/マイク</tspan></text>
+  <text id="Type-C端子_SDカードスロット_LAN端子_タッチUSB_Wi-Fi_Bluetooth_スピーカー出力_外形寸法_幅_高さ_奥行_mm_VESA_mm_重量" data-name="Type-C端子SDカードスロットLAN端子タッチUSBWi-Fi/Bluetoothスピーカー出力外形寸法（幅×高さ×奥行） ※mm
+VESA  ※mm重量" transform="translate(20 669.5)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">Type-C端子</tspan><tspan x="0" y="38">SDカードスロット</tspan><tspan x="0" y="76">LAN端子</tspan><tspan x="0" y="114">タッチUSB</tspan><tspan x="0" y="152">Wi-Fi/Bluetooth</tspan><tspan x="0" y="190">スピーカー出力</tspan><tspan x="0" y="228">外形寸法（幅×高さ×奥行）</tspan><tspan y="228" xml:space="preserve" font-size="10"> ※mm</tspan><tspan x="0" y="266" xml:space="preserve">VESA  </tspan><tspan y="266" font-size="10">※mm</tspan><tspan x="0" y="304">重量</tspan></text>
+  <text id="入力端子" transform="translate(20 478.76)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">入力端子</tspan></text>
+  <text id="入力端子-2" data-name="入力端子" transform="translate(20 612.691)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">入力端子</tspan></text>
+  <text id="VGA_HDMI_ビデオ映像_音声_USB_HDMI_音声" data-name="VGA
+HDMIビデオ映像音声USBHDMI音声" transform="translate(113 402.738)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">VGA</tspan><tspan x="0" y="38">HDMI</tspan><tspan x="0" y="76">ビデオ映像</tspan><tspan x="0" y="114">音声</tspan><tspan x="0" y="152">USB</tspan><tspan x="0" y="190">HDMI</tspan><tspan x="0" y="228">音声</tspan></text>
+  <text id="_5000_1_上下178_左右178_赤外線遮断検出方式_最大20点_厚さ4.0mm_アンチグレア_映り込み軽減処理_1300万画素_6Array_Microphone_1系統_4系統_ー_1系統_6系統_USB3.0_4系統_USB2.0_1系統_USB3.2_1系統_1系統_1系統_1系統_PD:65W_Altanate対応_ー_2系統_2系統_IEEE_802.11ax_ac_a_b_g_n準拠_Bluetooth5.0_前面_16W_16W_サブウーファー_20W_" data-name="5000：1上下178° / 左右178°赤外線遮断検出方式 / 最大20点厚さ4.0mm / アンチグレア（映り込み軽減処理）1300万画素 / 6Array Microphone
+1系統4系統ー1系統6系統（USB3.0×4系統、USB2.0×1系統、USB3.2×1系統）1系統1系統
+1系統(PD:65W Altanate対応）ー2系統2系統IEEE 802.11ax/ac/a/b/g/n準拠＋Bluetooth5.0前面（16W＋16W）＋サブウーファー（20W）" transform="translate(413 212.5)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-23.1" y="0">5000：1</tspan><tspan x="-54.168" y="38">上下178° / 左右178°</tspan><tspan x="-83.88" y="76">赤外線遮断検出方式 / 最大20点</tspan><tspan x="-132.732" y="114">厚さ4.0mm / アンチグレア（映り込み軽減処理）</tspan><tspan x="-90.876" y="152">1300万画素 / 6Array Microphone</tspan><tspan x="-15.42" y="190">1系統</tspan><tspan x="-15.42" y="228">4系統</tspan><tspan x="-6" y="266">ー</tspan><tspan x="-15.42" y="304">1系統</tspan><tspan x="-165.51" y="342">6系統（USB3.0×4系統、USB2.0×1系統、USB3.2×1系統）</tspan><tspan x="-15.42" y="380">1系統</tspan><tspan x="-15.42" y="418">1系統</tspan><tspan x="-82.926" y="456">1系統(PD:65W Altanate対応）</tspan><tspan x="-6" y="494">ー</tspan><tspan x="-15.42" y="532">2系統</tspan><tspan x="-15.42" y="570">2系統</tspan><tspan x="-127.134" y="608">IEEE 802.11ax/ac/a/b/g/n準拠＋Bluetooth5.0</tspan><tspan x="-126.252" y="646">前面（16W＋16W）＋サブウーファー（20W）</tspan></text>
+  <text id="_4K_3840_2160_約10.7億色" data-name="4K（3840×2160）
+約10.7億色" transform="translate(413 100)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-52.758" y="0">4K（3840×2160）</tspan><tspan x="-30.048" y="38">約10.7億色</tspan></text>
+  <text id="約1489_906_87_600_400_約40kg" data-name="約1489×906×87
+600×400約40kg" transform="translate(321 897.5)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-48.78" y="0">約1489×906×87</tspan><tspan x="-26.52" y="38">600×400</tspan><tspan x="-19.692" y="76">約40kg</tspan></text>
+  <text id="_450cd_m2" data-name="450cd/m2" transform="translate(321 176)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-28.398" y="0">450cd/m2</tspan></text>
+  <text id="M65CE2X" transform="translate(321 24)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-26.292" y="0">M65CE2X</tspan></text>
+  <text id="_65型" data-name="65型" transform="translate(321 62)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-12.84" y="0">65型</tspan></text>
+  <text id="約1710_1020_87_800_400_約55kg" data-name="約1710×1020×87
+800×400約55kg" transform="translate(507 897.5)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-52.2" y="0">約1710×1020×87</tspan><tspan x="-26.52" y="38">800×400</tspan><tspan x="-19.692" y="76">約55kg</tspan></text>
+  <text id="_400cd_m2" data-name="400cd/m2" transform="translate(507 176)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-28.398" y="0">400cd/m2</tspan></text>
+  <text id="M75CE2X" transform="translate(507 24)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-26.292" y="0">M75CE2X</tspan></text>
+  <text id="_75型" data-name="75型" transform="translate(507 62)" fill="#0a0a0a" font-size="12" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="-12.84" y="0">75型</tspan></text>
+  <line id="線_359" data-name="線 359" y2="266" transform="translate(93 380.237)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_413" data-name="線 413" y2="76" transform="translate(413.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_416" data-name="線 416" y2="986.5" transform="translate(227.5 0.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_415" data-name="線 415" y2="37.5" transform="translate(413.5 152.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_414" data-name="線 414" y2="114.5" transform="translate(413.5 873.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412" data-name="線 412" x2="597" transform="translate(0 38)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-2" data-name="線 412" x2="597" transform="translate(0 76)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-3" data-name="線 412" x2="597" transform="translate(0 114)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-4" data-name="線 412" x2="597" transform="translate(0 152)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-5" data-name="線 412" x2="597" transform="translate(0 190)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-6" data-name="線 412" x2="597" transform="translate(0 227.885)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-7" data-name="線 412" x2="597" transform="translate(0 265.865)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-8" data-name="線 412" x2="597" transform="translate(0 303.846)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-9" data-name="線 412" x2="597" transform="translate(0 341.827)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <line id="線_412-10" data-name="線 412" x2="597" transform="translate(0 379.808)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169" data-name="パス 1169" d="M83.027,0H583.32" transform="translate(13.68 417.789)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-2" data-name="パス 1169" d="M83.027,0H583.32" transform="translate(13.68 455.77)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-3" data-name="パス 1169" d="M83.027,0H583.32" transform="translate(13.68 493.75)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-4" data-name="パス 1169" d="M83.027,0H583.32" transform="translate(13.68 531.731)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-5" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 569.712)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-6" data-name="パス 1169" d="M83.027,0H583.32" transform="translate(13.68 607.692)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-7" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 645.673)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-8" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 683.654)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-9" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 721.635)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-10" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 759.616)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-11" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 797.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-12" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 835.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-13" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 873.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-14" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 911.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-15" data-name="パス 1169" d="M83.027,0h597" transform="translate(-83.027 949.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <path id="パス_1169-16" data-name="パス 1169" d="M687.027,0" transform="translate(-90.027 987.5)" fill="none" stroke="#cecece" stroke-width="1"/>
+  <g id="長方形_1606" data-name="長方形 1606" fill="none" stroke="#cecece" stroke-width="1">
+    <rect width="598" height="987.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="597" height="986.5" fill="none"/>
+  </g>
+</svg>
