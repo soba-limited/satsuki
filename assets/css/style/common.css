@@ -135,6 +135,39 @@ img.wp-post-image {
   background: #0a0a0a;
 }
 
+.application_rules-content,
+.privacy-content {
+  margin-top: 80px;
+  padding-bottom: 128px;
+}
+
+.application_rules-content .text,
+.privacy-content .text {
+  font-size: 1.6rem;
+  margin-top: 1.2em;
+}
+
+.application_rules-content .text.mt0,
+.privacy-content .text.mt0 {
+  margin-top: 0;
+}
+
+.application_rules-content .text span,
+.privacy-content .text span {
+  font-weight: 700;
+}
+
+.application_rules-content .title,
+.privacy-content .title {
+  font-size: 2rem;
+  margin-top: 2em;
+}
+
+.application_rules-content .list,
+.privacy-content .list {
+  margin-top: 24px;
+}
+
 .bread {
   margin-top: 20px;
   padding: 0 50px;
@@ -2465,6 +2498,22 @@ a:hover .products-menu__text {
 
   .hover-btn {
     font-size: 1.2rem;
+  }
+
+  .application_rules-content,
+  .privacy-content {
+    margin-top: 48px;
+    padding-bottom: 64px;
+  }
+
+  .application_rules-content .text,
+  .privacy-content .text {
+    font-size: 1.4rem;
+  }
+
+  .application_rules-content .title,
+  .privacy-content .title {
+    font-size: 1.7rem;
   }
 
   .bread {
