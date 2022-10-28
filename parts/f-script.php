@@ -13,7 +13,7 @@ if (is_home() || is_front_page()):?>
 <?php
 $page = get_post(get_the_ID());
 $slug = $page->post_name;
-$slugs = array("information",'faq');
+$slugs = array("information",'faq','maintenance');
 if (in_array($slug, $slugs)) :
     ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/<?php echo $slug; ?>.js">

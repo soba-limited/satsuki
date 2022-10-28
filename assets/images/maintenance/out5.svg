@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_3597" data-name="長方形 3597" width="48" height="48" transform="translate(0 0)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_4496" data-name="グループ 4496" transform="translate(-752 -2826)">
+    <path id="パス_8822" data-name="パス 8822" d="M0,0H100V100H0Z" transform="translate(752 2826)" fill="#fff"/>
+    <path id="パス_8823" data-name="パス 8823" d="M-2.676-6.864a11.153,11.153,0,0,1-1.116,3.6,13.228,13.228,0,0,1-1.2-3.6Zm2.088,0V-7.932H-4.644a18.738,18.738,0,0,0,.528-1.92l-1.164-.216a11.368,11.368,0,0,1-1.812,4.56V-9.084h-4.176V-8.04h3.1v2.112h-3.1v3.744c0,1.176.324,1.488,1.488,1.488h1.7c1,0,1.3-.408,1.428-1.956a3.254,3.254,0,0,1-1-.432c-.048,1.152-.12,1.332-.528,1.332H-9.648c-.456,0-.54-.06-.54-.444V-4.92h2.016v.432h1.08V-4.9a6.715,6.715,0,0,1,.66.492,6.771,6.771,0,0,0,.708-1.032A13.4,13.4,0,0,0-4.476-2.22,7.176,7.176,0,0,1-7.764,0,5.263,5.263,0,0,1-7.08,1,8.3,8.3,0,0,0-3.84-1.236,6.932,6.932,0,0,0-1.2.924,4.235,4.235,0,0,1-.444-.048,6.191,6.191,0,0,1-3.12-2.2,12.558,12.558,0,0,0-1.536-6.864ZM7.128-7.68v1.3h-3.3v.948h7.656v-.948H8.232v-1.3H10.98v-.96H8.232v-1.428h-1.1V-8.64H5.976A10.24,10.24,0,0,0,6.408-9.7L5.364-9.924A6.984,6.984,0,0,1,3.648-7.068a6.072,6.072,0,0,1,.948.54A8.2,8.2,0,0,0,5.448-7.68ZM5.94-3.72H9.528v1.6H5.94Zm4.752,2.508V-4.62H4.848v3.408Zm-7-6.744A9.423,9.423,0,0,0,1.644-9.792L.816-9.12a9.015,9.015,0,0,1,2,1.9ZM3.372-5.412H.744V-4.38H2.28v2.82A18.089,18.089,0,0,1,.54-.324L1.116.828c.624-.516,1.2-1,1.764-1.488A4.109,4.109,0,0,0,6.192.72C7.56.78,9.972.756,11.328.7A5.083,5.083,0,0,1,11.7-.444c-1.5.1-4.164.132-5.5.084A3.263,3.263,0,0,1,3.372-1.62Z" transform="translate(802 2909)" fill="#00c8ac"/>
+    <g id="グループ_4260" data-name="グループ 4260" transform="translate(778 2836)">
+      <g id="グループ_4259" data-name="グループ 4259" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="パス_8469" data-name="パス 8469" d="M9.157,11.1A3.764,3.764,0,0,1,4.383,9.713L1.634,5.395,5.4,1.633,9.714,4.382A3.764,3.764,0,0,1,11.1,9.156" transform="translate(-0.872 -0.871)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="線_4814" data-name="線 4814" x2="15.045" y2="15.045" transform="translate(10.541 7.532)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="線_4815" data-name="線 4815" x2="15.045" y2="15.045" transform="translate(7.532 10.541)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="パス_8470" data-name="パス 8470" d="M62.235,70.134l-12.86-12.86a2.394,2.394,0,0,1-.689-1.781l.072-2.221-3.278.107L43.9,51.794l7.9-7.9,1.586,1.586-.107,3.278,2.221-.072a2.394,2.394,0,0,1,1.781.689l12.859,12.86a2.557,2.557,0,0,1-.118,3.61l-4.171,4.171A2.557,2.557,0,0,1,62.235,70.134Z" transform="translate(-23.422 -23.422)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="線_4816" data-name="線 4816" x2="10.532" y2="10.532" transform="translate(30.852 30.852)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="パス_8471" data-name="パス 8471" d="M71.415,17.619A8.274,8.274,0,0,0,82.079,6.768l-4.645,4.645H75.306L72.92,9.027V6.9l4.645-4.645a8.277,8.277,0,0,0-10.85,10.665" transform="translate(-35.297 -0.871)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="パス_8472" data-name="パス 8472" d="M12.919,66.714A8.273,8.273,0,0,0,2.254,77.565L6.9,72.919H9.026l2.386,2.386v2.128L6.768,82.078a8.277,8.277,0,0,0,10.85-10.664" transform="translate(-0.871 -35.297)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="線_4817" data-name="線 4817" y1="6.018" x2="6.018" transform="translate(24.834 11.294)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="線_4818" data-name="線 4818" y1="3.762" x2="3.762" transform="translate(33.109 17.311)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="線_4819" data-name="線 4819" x1="6.018" y2="6.018" transform="translate(11.294 24.834)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="線_4820" data-name="線 4820" x1="3.762" y2="3.762" transform="translate(17.311 33.109)" fill="none" stroke="#00c8ac" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
