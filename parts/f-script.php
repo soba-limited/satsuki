@@ -13,7 +13,7 @@ if (is_home() || is_front_page()):?>
 <?php
 $page = get_post(get_the_ID());
 $slug = $page->post_name;
-$slugs = array("products");
+$slugs = array("information",'faq');
 if (in_array($slug, $slugs)) :
     ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/<?php echo $slug; ?>.js">
@@ -23,7 +23,7 @@ if (in_array($slug, $slugs)) :
 if($post->post_parent):
     $post_data = get_post($post->post_parent);
     $parent_name = $post_data->post_name;
-    if($parent_name == 'products'):?>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/products.js">
+    if($parent_name == 'information'):?>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/information.js">
 </script>
 <?php endif;endif;?>

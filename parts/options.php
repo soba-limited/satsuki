@@ -112,7 +112,7 @@
       <h2 class="products-menu__title">各種メニュー</h2>
       <div class="products-menu__flex">
         <div class="products-menu__single">
-          <a href="<?php echo urls('/');?>">
+          <a href="<?php echo urls('information');?>">
             <div class="products-menu__icon">
               <figure>
                 <?php echo svg('index', 'menu-icon1');?>
@@ -124,7 +124,7 @@
           </a>
         </div>
         <div class="products-menu__single">
-          <a href="<?php echo urls('/');?>">
+          <a href="<?php echo urls('contact');?>">
             <div class="products-menu__icon">
               <figure>
                 <?php echo svg('index', 'menu-icon2');?>
@@ -136,7 +136,7 @@
           </a>
         </div>
         <div class="products-menu__single">
-          <a href="<?php echo urls('/');?>">
+          <a href="<?php echo urls('document');?>">
             <div class="products-menu__icon">
               <figure>
                 <?php echo svg('index', 'menu-icon3');?>
@@ -148,7 +148,7 @@
           </a>
         </div>
         <div class="products-menu__single">
-          <a href="<?php echo urls('/');?>">
+          <a href="<?php echo urls('software-download');?>">
             <div class="products-menu__icon">
               <figure>
                 <?php echo svg('index', 'menu-icon4');?>

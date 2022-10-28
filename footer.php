@@ -31,25 +31,24 @@
           <div class="footer__nav--left">
             <p class="big-link"><a href="<?php echo urls('/');?>">トップページ</a></p>
             <p class="big-link"><a href="<?php echo urls('/');?>">STORY</a></p>
-            <p class="big-link"><a href="<?php echo urls('/');?>">導入事例</a></p>
-            <p class="big-link"><a href="<?php echo urls('/');?>">お知らせ</a></p>
-            <p class="big-link mt2em"><a href="<?php echo urls('/');?>">会員ログイン</a></p>
+            <p class="big-link"><a href="<?php echo urls('case');?>">導入事例</a></p>
+            <p class="big-link"><a href="<?php echo urls('news');?>">お知らせ</a></p>
           </div>
           <div class="footer__nav--center">
-            <p class="big-link"><a href="<?php echo urls('/');?>">製品情報</a></p>
-            <p class="small-link"><a href="<?php echo urls('/');?>">Xシリーズ</a></p>
-            <p class="small-link"><a href="<?php echo urls('/');?>">Cシリーズ</a></p>
-            <p class="small-link"><a href="<?php echo urls('/');?>">Pシリーズ</a></p>
-            <p class="big-link mt2em"><a href="<?php echo urls('/');?>">資料ダウンロード</a></p>
-            <p class="big-link"><a href="<?php echo urls('/');?>">ソフトウェアダウンロード</a></p>
+            <p class="big-link"><a href="<?php echo urls('information');?>">製品情報</a></p>
+            <p class="small-link"><a href="<?php echo urls('information/x-series');?>">Xシリーズ</a></p>
+            <p class="small-link"><a href="<?php echo urls('information/c-series');?>">Cシリーズ</a></p>
+            <p class="small-link"><a href="<?php echo urls('information/p-series');?>">Pシリーズ</a></p>
+            <p class="big-link mt2em"><a href="<?php echo urls('document');?>">資料ダウンロード</a></p>
+            <p class="big-link"><a href="<?php echo urls('software-download');?>">ソフトウェアダウンロード</a></p>
           </div>
           <div class="footer__nav--right">
-            <p class="big-link"><a href="<?php echo urls('/');?>">お問い合わせ</a></p>
-            <p class="small-link"><a href="<?php echo urls('/');?>">製品・サービスに関するお問い合わせ</a></p>
-            <p class="small-link"><a href="<?php echo urls('/');?>">修理・不具合に関するお問い合わせ</a></p>
-            <p class="small-link"><a href="<?php echo urls('/');?>">ご販売店様向けお問い合わせ</a></p>
-            <p class="big-link mt2em"><a href="<?php echo urls('/');?>">よくある質問</a></p>
-            <p class="big-link"><a href="<?php echo urls('/');?>">会社概要</a></p>
+            <p class="big-link"><a href="<?php echo urls('contact');?>">お問い合わせ</a></p>
+            <p class="small-link"><a href="<?php echo urls('contact/service');?>">製品・サービスに関するお問い合わせ</a></p>
+            <p class="small-link"><a href="<?php echo urls('contact/repair');?>">修理・不具合に関するお問い合わせ</a></p>
+            <p class="small-link"><a href="<?php echo urls('contact/sales');?>">ご販売店様向けお問い合わせ</a></p>
+            <p class="big-link mt2em"><a href="<?php echo urls('faq');?>">よくある質問</a></p>
+            <p class="big-link"><a href="<?php echo urls('company');?>">会社概要</a></p>
           </div>
         </nav>
 
@@ -61,8 +60,8 @@
           </figure>
           <div class="footer__bottoms--info">
             <p class="footer__small-link">
-              <a href="<?php echo urls('/');?>">プライバシーポリシー</a>
-              <a href="<?php echo urls('/');?>">アプリケーション利用規約</a>
+              <a href="<?php echo urls('privacy');?>">プライバシーポリシー</a>
+              <a href="<?php echo urls('term');?>">アプリケーション利用規約</a>
             </p>
             <p class="footer__copy dn-max-m">
               ©SATSUKI Co.,Ltd. All Rights Reserved

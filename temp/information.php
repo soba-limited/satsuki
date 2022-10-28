@@ -70,7 +70,7 @@
           </p>
           <figure class="thumbs"><?php echo webp('products', 'x-main');?></figure>
           <p class="hover-btn black more dn-max-s">
-            <a href="<?php echo urls('/');?>">もっとみる</a>
+            <a href="<?php echo urls('information/x-series');?>">もっとみる</a>
           </p>
         </div>
         <div class="products-series__right">
@@ -88,7 +88,7 @@
             </ul>
           </div>
           <p class="hover-btn black more dn-min-s">
-            <a href="<?php echo urls('/');?>">もっとみる</a>
+            <a href="<?php echo urls('information/x-series');?>">もっとみる</a>
           </p>
         </div>
       </div>
@@ -109,7 +109,7 @@
           </p>
           <figure class="thumbs"><?php echo webp('products', 'c-main');?></figure>
           <p class="hover-btn black more dn-max-s">
-            <a href="<?php echo urls('/');?>">もっとみる</a>
+            <a href="<?php echo urls('information/c-series');?>">もっとみる</a>
           </p>
         </div>
         <div class="products-series__right">
@@ -127,7 +127,7 @@
             </ul>
           </div>
           <p class="hover-btn black more dn-min-s">
-            <a href="<?php echo urls('/');?>">もっとみる</a>
+            <a href="<?php echo urls('information/c-series');?>">もっとみる</a>
           </p>
         </div>
       </div>
@@ -149,7 +149,7 @@
           </p>
           <figure class="thumbs"><?php echo webp('products', 'p-main');?></figure>
           <p class="hover-btn black more dn-max-s">
-            <a href="<?php echo urls('/');?>">もっとみる</a>
+            <a href="<?php echo urls('information/p-series');?>">もっとみる</a>
           </p>
         </div>
         <div class="products-series__right">
@@ -167,7 +167,7 @@
             </ul>
           </div>
           <p class="hover-btn black more dn-min-s">
-            <a href="<?php echo urls('/');?>">もっとみる</a>
+            <a href="<?php echo urls('information/p-series');?>">もっとみる</a>
           </p>
         </div>
       </div>

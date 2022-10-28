@@ -67,12 +67,12 @@
       <article class="index-series__flex">
         <div class="index-series__flex--single">
           <figure class="index-series__flex--thumbs">
-            <a href="<?php echo urls('/');?>">
+            <a href="<?php echo urls('information/x-series');?>">
               <?php echo webp('index', 'x-series');?>
             </a>
           </figure>
           <p class="index-series__flex--title">
-            <a href="<?php echo urls('/');?>">Xシリーズ</a>
+            <a href="<?php echo urls('information/x-series');?>">Xシリーズ</a>
           </p>
           <p class="index-series__flex--text">
             業界初となる「実物投影機」を内蔵。<br>
@@ -81,12 +81,12 @@
         </div>
         <div class="index-series__flex--single">
           <figure class="index-series__flex--thumbs">
-            <a href="<?php echo urls('/');?>">
+            <a href="<?php echo urls('information/c-series');?>">
               <?php echo webp('index', 'c-series');?>
             </a>
           </figure>
           <p class="index-series__flex--title">
-            <a href="<?php echo urls('/');?>">Cシリーズ</a>
+            <a href="<?php echo urls('information/c-series');?>">Cシリーズ</a>
           </p>
           <p class="index-series__flex--text">
             2014年の発売から長年愛されてきた、ライタッチのスタンダードモデル。
@@ -94,12 +94,12 @@
         </div>
         <div class="index-series__flex--single">
           <figure class="index-series__flex--thumbs">
-            <a href="<?php echo urls('/');?>">
+            <a href="<?php echo urls('information/p-series');?>">
               <?php echo webp('index', 'p-series');?>
             </a>
           </figure>
           <p class="index-series__flex--title">
-            <a href="<?php echo urls('/');?>">Pシリーズ</a>
+            <a href="<?php echo urls('information/p-series');?>">Pシリーズ</a>
           </p>
           <p class="index-series__flex--text">
             学校現場の要望によって誕生。<br>
@@ -339,7 +339,7 @@
         <h2 class="index-menu__title">各種メニュー</h2>
         <div class="index-menu__flex">
           <div class="index-menu__single">
-            <a href="<?php echo urls('/');?>">
+            <a href="<?php echo urls('information');?>">
               <div class="index-menu__icon">
                 <figure>
                   <?php echo svg('index', 'menu-icon1');?>
@@ -351,7 +351,7 @@
             </a>
           </div>
           <div class="index-menu__single">
-            <a href="<?php echo urls('/');?>">
+            <a href="<?php echo urls('contact');?>">
               <div class="index-menu__icon">
                 <figure>
                   <?php echo svg('index', 'menu-icon2');?>
@@ -363,7 +363,7 @@
             </a>
           </div>
           <div class="index-menu__single">
-            <a href="<?php echo urls('/');?>">
+            <a href="<?php echo urls('document');?>">
               <div class="index-menu__icon">
                 <figure>
                   <?php echo svg('index', 'menu-icon3');?>
@@ -375,7 +375,7 @@
             </a>
           </div>
           <div class="index-menu__single">
-            <a href="<?php echo urls('/');?>">
+            <a href="<?php echo urls('software-download');?>">
               <div class="index-menu__icon">
                 <figure>
                   <?php echo svg('index', 'menu-icon4');?>

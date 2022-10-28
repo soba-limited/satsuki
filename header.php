@@ -32,30 +32,30 @@
         <a href="<?php echo urls('/');?>">STORY</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">製品情報</a>
+        <a href="<?php echo urls('information');?>">製品情報</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">導入事例</a>
+        <a href="<?php echo urls('case');?>">導入事例</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">保証について</a>
+        <a href="<?php echo urls('maintenance');?>">保証について</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">よくある質問</a>
+        <a href="<?php echo urls('faq');?>">よくある質問</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">お知らせ</a>
+        <a href="<?php echo urls('news');?>">お知らせ</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">会社概要</a>
+        <a href="<?php echo urls('company');?>">会社概要</a>
       <p>
     </nav>
     <section class="head__btns dn-max-s">
       <p class="head__btns--single hover-btn">
-        <a href="<?php echo urls('/');?>">資料ダウンロード</a>
+        <a href="<?php echo urls('document');?>">資料ダウンロード</a>
       </p>
       <p class="head__btns--single hover-btn">
-        <a href="<?php echo urls('/');?>">お問い合わせ</a>
+        <a href="<?php echo urls('contact');?>">お問い合わせ</a>
       </p>
     </section>
     <section class="head__hum-toggle hum-toggle dn-min-l">
@@ -72,47 +72,47 @@
         <a href="<?php echo urls('/');?>">STORY</a>
       <p>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">製品情報</a>
+        <a href="<?php echo urls('information');?>">製品情報</a>
       <p>
       <ul class="humburger__nav--sub">
         <li class="humburger__nav--sub__single">
-          <a href="<?php echo urls('/');?>">Xシリーズ</a>
+          <a href="<?php echo urls('information/x-series');?>">Xシリーズ</a>
         </li>
         <li class="humburger__nav--sub__single">
-          <a href="<?php echo urls('/');?>">Pシリーズ</a>
+          <a href="<?php echo urls('information/p-series');?>">Pシリーズ</a>
         </li>
         <li class="humburger__nav--sub__single">
-          <a href="<?php echo urls('/');?>">Cシリーズ</a>
+          <a href="<?php echo urls('information/c-series');?>">Cシリーズ</a>
         </li>
       </ul>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">導入事例</a>
+        <a href="<?php echo urls('case');?>">導入事例</a>
       <p>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">よくある質問</a>
+        <a href="<?php echo urls('faq');?>">よくある質問</a>
       <p>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">お知らせ</a>
+        <a href="<?php echo urls('news');?>">お知らせ</a>
       <p>
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">会社概要</a>
+        <a href="<?php echo urls('company');?>">会社概要</a>
       <p>
     </nav>
     <section class="humburger__btns">
       <p class="humburger__btns--single hover-btn">
-        <a href="<?php echo urls('/');?>">資料ダウンロード</a>
+        <a href="<?php echo urls('document');?>">資料ダウンロード</a>
       </p>
       <p class="humburger__btns--single hover-btn">
-        <a href="<?php echo urls('/');?>">お問い合わせ</a>
+        <a href="<?php echo urls('contact');?>">お問い合わせ</a>
       </p>
     </section>
 
     <section class="humburger__bottom">
       <p class="humburger__bottom--single">
-        <a href="<?php echo urls('/');?>">プライバシーポリシー</a>
+        <a href="<?php echo urls('privacy');?>">プライバシーポリシー</a>
       </p>
       <p class="humburger__bottom--single">
-        <a href="<?php echo urls('/');?>">アプリケーション利用規約</a>
+        <a href="<?php echo urls('term');?>">アプリケーション利用規約</a>
       </p>
       <p class="humburger__bottom--single">
         <a href="" target="_blank">
