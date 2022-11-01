@@ -19,6 +19,13 @@ if (in_array($slug, $slugs)) :
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/<?php echo $slug; ?>.js">
 </script>
 <?php endif;?>
+<?php if(get_post_type() == 'news'):?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/news.js">
+</script>
+<?php elseif(get_post_type() == 'case'):?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/case.js">
+</script>
+<?php endif;?>
 <?php
 if($post->post_parent):
     $post_data = get_post($post->post_parent);
