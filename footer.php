@@ -30,7 +30,7 @@
         <nav class="footer__nav dn-max-m">
           <div class="footer__nav--left">
             <p class="big-link"><a href="<?php echo urls('/');?>">トップページ</a></p>
-            <p class="big-link"><a href="<?php echo urls('/');?>">STORY</a></p>
+            <p class="big-link"><a href="<?php echo urls('story');?>">STORY</a></p>
             <p class="big-link"><a href="<?php echo urls('case');?>">導入事例</a></p>
             <p class="big-link"><a href="<?php echo urls('news');?>">お知らせ</a></p>
           </div>

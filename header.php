@@ -25,11 +25,13 @@
 <body>
   <header class="head">
     <figure class="head__logo">
-      <?php echo svg("common", 'logo');?>
+      <a href="<?php echo urls('/');?>">
+        <?php echo svg("common", 'logo');?>
+      </a>
     </figure>
     <nav class="head__nav dn-max-l">
       <p class="head__nav--single">
-        <a href="<?php echo urls('/');?>">STORY</a>
+        <a href="<?php echo urls('story');?>">STORY</a>
       <p>
       <p class="head__nav--single">
         <a href="<?php echo urls('information');?>">製品情報</a>
@@ -69,7 +71,7 @@
 
     <nav class="humburger__nav">
       <p class="humburger__nav--single">
-        <a href="<?php echo urls('/');?>">STORY</a>
+        <a href="<?php echo urls('story');?>">STORY</a>
       <p>
       <p class="humburger__nav--single">
         <a href="<?php echo urls('information');?>">製品情報</a>

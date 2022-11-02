@@ -9,12 +9,12 @@
       </picture>
     </div>
     <div class="index-mv__title">
-      <picture>
+      <picture class="fadein">
         <?php echo svg2('index', 'mv-title');?>
       </picture>
     </div>
     <div class="index-mv__bottom">
-      <figure class="index-mv__bottom--image">
+      <figure class="index-mv__bottom--image fadein">
         <?php echo webp('index', 'mv-image');?>
       </figure>
     </div>
@@ -22,7 +22,7 @@
 
   <section class="index-first">
     <div class="wrap">
-      <h2 class="index-first__title">
+      <h2 class="index-first__title slidein">
         <p class="dn-max-s">
           <span>今、全国の学校で選ばれています。</span>
         </p>
@@ -40,12 +40,12 @@
         </p>
       </h2>
       <article class="index-first__flex">
-        <p class="index-first__flex--text">
+        <p class="index-first__flex--text slidein">
           全国の教育現場でミライタッチが評価される点は、操作性の良さ。健常者や障がい者、IT機器の操作が苦手な方など関係なく、誰でも簡単に、使いやすいと感じてもらえる電子黒板です。<br>
           <br>
           一度使っていただければ、その良さは分かっていただけます。ぜひ体験してください。
         </p>
-        <figure class="index-first__flex--image">
+        <figure class="index-first__flex--image slidein rag1">
           <?php echo webp('index', 'touch');?>
         </figure>
       </article>
@@ -55,17 +55,17 @@
   <section class="index-series">
     <div class="wrap">
       <article class="index-series__head">
-        <h2 class="index-series__head--title">
+        <h2 class="index-series__head--title slidein">
           ミライタッチは、<span>オールインワン</span>。<br>
           複雑な配線をしなくても、<br>
           1台で<span>全てが完結</span>します。
         </h2>
-        <p class="index-series__head--text">
+        <p class="index-series__head--text slidein rag1">
           電源をつなぐだけで、何でも書けるホワイトボード機能はもちろん、実物投影機、PC・サーバー・クラウドへの接続、マルチOS対応のソフトウェア、TV視聴などがこの1台で完結。複雑な配線や準備をする必要は一切ナシ。画面操作はアイコンで直感的に操作できるので、テンポ良く授業の進行ができます。
         </p>
       </article>
       <article class="index-series__flex">
-        <div class="index-series__flex--single">
+        <div class="index-series__flex--single slidein">
           <figure class="index-series__flex--thumbs">
             <a href="<?php echo urls('information/x-series');?>">
               <?php echo webp('index', 'x-series');?>
@@ -79,7 +79,7 @@
             多機能を搭載した次世代型の電子黒板。
           </p>
         </div>
-        <div class="index-series__flex--single">
+        <div class="index-series__flex--single slidein rag1">
           <figure class="index-series__flex--thumbs">
             <a href="<?php echo urls('information/c-series');?>">
               <?php echo webp('index', 'c-series');?>
@@ -92,7 +92,7 @@
             2014年の発売から長年愛されてきた、ライタッチのスタンダードモデル。
           </p>
         </div>
-        <div class="index-series__flex--single">
+        <div class="index-series__flex--single slidein rag2">
           <figure class="index-series__flex--thumbs">
             <a href="<?php echo urls('information/p-series');?>">
               <?php echo webp('index', 'p-series');?>
@@ -113,7 +113,7 @@
   <section class="index-graf">
     <div class="wrap-mini">
       <article class="index-graf__flex">
-        <div class="index-graf__flex--text-box">
+        <div class="index-graf__flex--text-box slidein">
           <h2 class="index-graf__flex--title">
             全国各地の教育関係者が高評価！<br>
             トップクラスの導入数を誇ります。
@@ -134,12 +134,12 @@
 
   <section class="index-concept">
     <div class="wrap">
-      <h2 class="index-concept__title">
+      <h2 class="index-concept__title slidein">
         <span class="jp">私たちが目指すこと</span>
         <span class="en">Concept</span>
       </h2>
       <article class="index-concept__head">
-        <div class="index-concept__head--text-box">
+        <div class="index-concept__head--text-box slidein">
           <h3 class="index-concept__head--title">
             使う人誰もが<span>主役になれる、電子黒板。</span><br class="dn-max-l">
             夢を叶えて、<span>豊かな未来を創造</span>してほしい。
@@ -148,28 +148,28 @@
             教育をもっと自由に、もっと楽しく、もっとアクティブに。私たちが目指すのは、あらゆる立場・状況にある人たちが個性を尊重し合い、学び合えること。インクルーシブな教育現場です。そのためには、電子黒板の機能性や操作性の向上はもちろん、使用する先生や子ども達の声や想いに寄り添い、反映することで、理想の電子黒板へと日々進化させていきます。皆の夢を叶えて、豊かな未来の創造のお手伝いをすることが、私たちの使命でもあります。
           </p>
         </div>
-        <div class="index-concept__head--image">
+        <div class="index-concept__head--image slidein rag2">
           <figure>
             <?php echo webp('index', 'concept');?>
           </figure>
         </div>
       </article>
       <article class="index-concept__content">
-        <h3 class="index-concept__content--title">
+        <h3 class="index-concept__content--title slidein">
           ミライタッチは、<span>1931年創業の“社会貢献事業”会社</span>が開発しています。
         </h3>
-        <p class="index-concept__content--text">
+        <p class="index-concept__content--text slidein">
           さつき株式会社は創業以来、社会貢献につながる価値ある事業を展開してきました。<br>
           長年培ってきた信頼と歴史を基盤とし、今後も社会に必要とされる使命を全うしていきます。
         </p>
         <div class="index-concept__content--flex">
-          <figure class="index-concept__content--icon">
+          <figure class="index-concept__content--icon fadein rag1">
             <?php echo svg('index', 'birth');?>
           </figure>
-          <figure class="index-concept__content--icon">
+          <figure class="index-concept__content--icon fadein rag2">
             <?php echo svg('index', 'send');?>
           </figure>
-          <figure class="index-concept__content--icon">
+          <figure class="index-concept__content--icon fadein rag3">
             <?php echo svg('index', 'cased');?>
           </figure>
         </div>
@@ -179,11 +179,11 @@
 
   <section class="index-case">
     <div class="wrap">
-      <h2 class="index-case__title">
+      <h2 class="index-case__title slidein">
         導入事例
         <span class="en">Cases</span>
       </h2>
-      <article class="index-case__list slick-slider" id="slider">
+      <article class="index-case__list slick-slider slidein" id="slider">
         <?php include(dirname(__FILE__).'/parts/index-case-loop.php');?>
       </article>
     </div>
@@ -191,11 +191,11 @@
 
   <section class="index-features">
     <div class="wrap">
-      <h2 class="index-features__title">
+      <h2 class="index-features__title slidein">
         ミライタッチの特長
         <span class="en">Features</span>
       </h2>
-      <article class="index-features__card">
+      <article class="index-features__card fadein rag1">
         <div class="index-features__card--title">
           <p class="num">01</p>
           <h3 class="text">
@@ -218,7 +218,7 @@
           </figure>
         </div>
       </article>
-      <article class="index-features__card">
+      <article class="index-features__card fadein rag1">
         <div class="index-features__card--title">
           <p class="num">02</p>
           <h3 class="text">使用者の声を反映し日々進化。<span>バージョンアップする</span>電子黒板。</h3>
@@ -239,7 +239,7 @@
           </figure>
         </div>
       </article>
-      <article class="index-features__card">
+      <article class="index-features__card fadein rag1">
         <div class="index-features__card--title">
           <p class="num">03</p>
           <h3 class="text">教室を拡張し、世界とつながる。<span>情報をシェアできる</span>電子黒板。</h3>
@@ -261,7 +261,7 @@
         </div>
       </article>
 
-      <p class="hover-btn index-features__more">
+      <p class="hover-btn index-features__more fadein">
         <a href="<?php echo urls('/fueatures');?>">製品をみる</a>
       </p>
     </div>
@@ -269,11 +269,11 @@
 
   <section class="index-problem">
     <div class="wrap">
-      <h2 class="index-problem__title">
+      <h2 class="index-problem__title slidein">
         <span class="jp">こんなお悩みありませんか?</span>
         <span class="en">Problem</span>
       </h2>
-      <article class="index-problem__card">
+      <article class="index-problem__card fadein">
         <div class="index-problem__card--single">
           <p class="index-problem__card--text">
             GIGAスクール端末を<br>もっと活用した授業をしたい。
@@ -301,13 +301,13 @@
       </article>
     </div>
     <div class="wrap-mini">
-      <figure class="index-problem__delta">
+      <figure class="index-problem__delta fadein">
         <?php echo svg('index', 'delta');?>
       </figure>
-      <div class="index-problem__sub-title">
+      <div class="index-problem__sub-title slidein">
         <h3>教育現場でのお悩みは、<span>ミライタッチで解決</span>可能です。</h3>
       </div>
-      <p class="index-problem__text">
+      <p class="index-problem__text slidein">
         ミライタッチが常に考えているのは、すべての人にとって“いい電子黒板”になること。授業の中心となる黒板が使いにくい物であっては、意味がありません。ミライタッチはすべての人に喜んでもらえるように、日々進化を続けています。もし教育現場でのお困りごとがございましたら、お気軽にご相談ください。ミライタッチを活用した解決策をご提案します。
       </p>
     </div>
@@ -316,18 +316,18 @@
   <section class="index-news">
     <div class="wrap-mini">
       <article class="index-news__head">
-        <h2 class="index-news__head--title">
+        <h2 class="index-news__head--title slidein">
           お知らせ
           <span class="en">News</span>
         </h2>
-        <p class="hover-btn index-news__head--more dn-max-s">
+        <p class="hover-btn index-news__head--more dn-max-s fadein">
           <a href="<?php echo urls('news');?>">一覧をみる</a>
         </p>
       </article>
       <article class="index-news__list">
         <?php include(dirname(__FILE__).'/parts/index-news-loop.php');?>
       </article>
-      <p class="index-news__more hover-btn dn-min-s">
+      <p class="index-news__more hover-btn dn-min-s fadein">
         <a href="<?php echo urls('news');?>">一覧をみる</a>
       </p>
     </div>
@@ -336,9 +336,9 @@
   <section class="index-menu">
     <div class="wrap">
       <article class="index-menu__card">
-        <h2 class="index-menu__title">各種メニュー</h2>
+        <h2 class="index-menu__title slidein">各種メニュー</h2>
         <div class="index-menu__flex">
-          <div class="index-menu__single">
+          <div class="index-menu__single fadein">
             <a href="<?php echo urls('information');?>">
               <div class="index-menu__icon">
                 <figure>
@@ -350,7 +350,7 @@
               </p>
             </a>
           </div>
-          <div class="index-menu__single">
+          <div class="index-menu__single fadein">
             <a href="<?php echo urls('contact');?>">
               <div class="index-menu__icon">
                 <figure>
@@ -362,7 +362,7 @@
               </p>
             </a>
           </div>
-          <div class="index-menu__single">
+          <div class="index-menu__single fadein">
             <a href="<?php echo urls('document');?>">
               <div class="index-menu__icon">
                 <figure>
@@ -374,7 +374,7 @@
               </p>
             </a>
           </div>
-          <div class="index-menu__single">
+          <div class="index-menu__single fadein">
             <a href="<?php echo urls('software-download');?>">
               <div class="index-menu__icon">
                 <figure>
@@ -394,3 +394,4 @@
 
 
 <?php get_footer();
+?>

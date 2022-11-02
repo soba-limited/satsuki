@@ -11,7 +11,7 @@ if ($the_query->have_posts()) :
 <?php
         $cat = get_the_terms($post->ID, 'news_cat')[0]->name;
         ?>
-<div class="index-news__list--single">
+<div class="index-news__list--single slidein">
   <a href="<?php echo get_permalink();?>">
     <p class="index-news__list--date en">
       <?php echo get_the_date('Y.m.d');?>
