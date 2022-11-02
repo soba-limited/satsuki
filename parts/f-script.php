@@ -24,7 +24,7 @@ if (in_array($slug, $slugs)) :
 <?php
 $page = get_post(get_the_ID());
 $slug = $page->post_name;
-$slugs = array('faq','service','repair','sales','document',);
+$slugs = array('faq','service','repair','sales','document','software-download','contact');
 if (in_array($slug, $slugs)) :
     ?>
 <script defer src="https://app.webchat.obotai.com/loader/?cid=BjYfxCLzly"></script>

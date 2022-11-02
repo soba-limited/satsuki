@@ -94,7 +94,7 @@
       </div>
     </article>
 
-    <article class="products-series__single series-x" id="xSeries">
+    <article class="products-series__single series-x" id="cSeries">
       <h2 class="products-series__title">
         <span class="title">Cシリーズ</span>
         <span class="tag">65型</span>
@@ -133,7 +133,7 @@
       </div>
     </article>
 
-    <article class="products-series__single series-x" id="xSeries">
+    <article class="products-series__single series-x" id="pSeries">
       <h2 class="products-series__title">
         <span class="title">Pシリーズ</span>
         <span class="tag">55型</span>
@@ -176,3 +176,4 @@
 </section>
 
 <?php include(dirname(__FILE__).'/../parts/options.php');
+?>

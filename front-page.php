@@ -262,7 +262,7 @@
       </article>
 
       <p class="hover-btn index-features__more fadein">
-        <a href="<?php echo urls('/fueatures');?>">製品をみる</a>
+        <a href="<?php echo urls('/information');?>">製品をみる</a>
       </p>
     </div>
   </section>
