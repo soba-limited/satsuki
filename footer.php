@@ -1,3 +1,11 @@
+<section class="pagetop-btn">
+  <figure>
+    <a href="#top" id="pagetop">
+      <?php echo svg('common', 'pagetop');?>
+    </a>
+  </figure>
+</section>
+
 <footer class="footer">
   <div class="wrap">
     <article class="footer__flex">
@@ -54,7 +62,7 @@
 
         <div class="footer__bottoms">
           <figure class="footer__facebook">
-            <a href="">
+            <a href="https://www.facebook.com/Collabon.SOL" target="_blank">
               <?php echo svg('common', 'facebook-w');?>
             </a>
           </figure>

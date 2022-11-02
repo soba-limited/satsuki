@@ -42,7 +42,6 @@ function countUp(start, stop, duration, easing, element) {
       easing: easing,
       progress: function () {
         element.text(Math.round(this.percent));
-        console.log(Math.round(this.percent));
       },
     }
   );

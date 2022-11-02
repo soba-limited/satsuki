@@ -36,11 +36,11 @@ if ($('a#pagetop').hasClass('pagetop')) {
 }
 
 $(function () {
-  $("a[href*='#']").on('click', function () {
+  $("a[href*='#']:not('.pagetop')").on('click', function () {
     var speed = 400; // ミリ秒
     var targetId = '#' + $(this).attr('href').split('#')[1];
     var target = $(targetId == '#' || targetId == '' ? 'html' : targetId);
-    var point = target.offset().top - 150;
+    var point = target.offset() - 150;
     $('body,html').animate(
       {
         scrollTop: point,

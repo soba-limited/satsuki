@@ -21,6 +21,15 @@ if (in_array($slug, $slugs)) :
 </script>
 <?php endif;?>
 
+<?php
+$page = get_post(get_the_ID());
+$slug = $page->post_name;
+$slugs = array('faq','service','repair','sales','document',);
+if (in_array($slug, $slugs)) :
+    ?>
+<script defer src="https://app.webchat.obotai.com/loader/?cid=BjYfxCLzly"></script>
+<?php endif;?>
+
 <?php if(get_post_type() == 'news'):?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/news.js">
 </script>

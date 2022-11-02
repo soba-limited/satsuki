@@ -799,6 +799,18 @@ img.wp-post-image {
   background: #00c8ac;
 }
 
+.pagetop-btn {
+  position: fixed;
+  z-index: 30;
+  right: 72px;
+  bottom: 50px;
+  transition: ease .2s all;
+}
+
+.pagetop-btn:hover {
+  opacity: .8;
+}
+
 .footer {
   padding: 48px 0;
   background: #363636;
@@ -4039,7 +4051,7 @@ a:hover .products-menu__text {
   margin-top: 1em;
 }
 
-.software {
+.software-download {
   padding-bottom: 128px;
 }
 
@@ -4858,6 +4870,15 @@ a:hover .products-menu__text {
 
   .series-nav__single {
     font-size: 1.2rem;
+  }
+
+  .pagetop-btn {
+    right: 16px;
+    bottom: 16px;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
   }
 
   .footer__name {
@@ -6355,7 +6376,7 @@ a:hover .products-menu__text {
     font-size: 1.3rem;
   }
 
-  .software {
+  .software-download {
     padding-bottom: 64px;
   }
 
