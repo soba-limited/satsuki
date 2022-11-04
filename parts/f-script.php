@@ -24,10 +24,13 @@ if (in_array($slug, $slugs)) :
 <?php
 $page = get_post(get_the_ID());
 $slug = $page->post_name;
-$slugs = array('faq','service','repair','sales','document','software-download','contact');
+$slugs = array('faq','service','repair','sales','contact');
 if (in_array($slug, $slugs)) :
     ?>
-<script defer src="https://app.webchat.obotai.com/loader/?cid=BjYfxCLzly"></script>
+<script defer src="https://app.webchat.obotai.com/loader/?cid=k3thGh9TCT"></script>
+<script>
+$('.pagetop-btn').hide();
+</script>
 <?php endif;?>
 
 <?php if(get_post_type() == 'news'):?>

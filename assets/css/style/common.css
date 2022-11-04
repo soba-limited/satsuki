@@ -470,6 +470,10 @@ img.wp-post-image {
   flex-basis: calc(100% / 3 - 40px * 2 / 3);
 }
 
+.archive-case__list figure {
+  margin: 0;
+}
+
 .archive-case__list--title {
   padding: 10px 16px;
   text-align: center;
@@ -2060,6 +2064,10 @@ img.wp-post-image {
 
 .index-case__list {
   margin-top: 32px;
+}
+
+.index-case__list figure {
+  margin: 0;
 }
 
 .index-case__list--title {
