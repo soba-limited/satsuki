@@ -44,3 +44,10 @@ function delete_jquery()
     }
 }
 add_action('init', 'delete_jquery');
+
+//wp-block-library読み込み停止
+function remove_unuse_css()
+{
+    wp_dequeue_style('wp-block-library');
+}
+add_action('wp_enqueue_scripts', 'remove_unuse_css', 9999);
