@@ -34,7 +34,7 @@
 <section class="series-first">
   <div class="wrap">
     <h2 class="series-first__title">
-      学校の<span>”欲しい機能”</span>をこの一台に集約
+      学校の<span>”欲しい機能”</span>を<br class="dn-min-s">この一台に集約
     </h2>
     <p class="series-first__text">
       アプリダウンロード機能やセキュリティ機能、SDカードスロットなど、学校現場からの要望の多い機能を多数搭載したシリーズです。
@@ -101,7 +101,7 @@
 <section class="series-shere">
   <div class="wrap">
     <h2 class="series-shere__title">
-      ファイル管理ソフト<span class="en">Share</span>
+      ファイル管理ソフト <span class="en">Share</span>
     </h2>
     <picture class="series-shere__image">
       <?php echo webp2('p_series', 'share');?>

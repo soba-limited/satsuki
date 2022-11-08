@@ -34,7 +34,7 @@
 <section class="series-first">
   <div class="wrap">
     <h2 class="series-first__title">
-      使いやすさを追求した<span>ロングセラー</span>シリーズ
+      使いやすさを追求した<br class="dn-min-s"><span>ロングセラー</span>シリーズ
     </h2>
     <p class="series-first__text">
       2014年に発売を開始し、長年学校現場で愛されてきたシリーズ。誰でも簡単に使える簡単設計で、直感的な操作が可能です。
@@ -100,7 +100,7 @@
 <section class="series-shere">
   <div class="wrap">
     <h2 class="series-shere__title">
-      ファイル管理ソフト<span class="en">Share</span>
+      ファイル管理ソフト <span class="en">Share</span>
     </h2>
     <picture class="series-shere__image">
       <?php echo webp2('c_series', 'share');?>

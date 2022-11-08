@@ -20,7 +20,7 @@
             <?php echo svg('contact', 'tell-mark');?>
           </figure>
           <p class="number en">
-            0120-261-271
+            <a href="tel:0120261271">0120-261-271</a>
           </p>
         </div>
         <div class="right">
@@ -45,7 +45,7 @@
         <p class="people">ご導入を検討中のお客様</p>
       </div>
       <p class="hover-btn more">
-        <a href="./service">詳しく見る</a>
+        <a href="./service">詳しくみる</a>
       </p>
     </article>
     <article class="contact-list__single">
@@ -57,7 +57,7 @@
         <p class="people">ご利用中のお客様</p>
       </div>
       <p class="hover-btn more">
-        <a href="./repair">詳しく見る</a>
+        <a href="./repair">詳しくみる</a>
       </p>
     </article>
     <article class="contact-list__single">
@@ -71,7 +71,7 @@
         </p>
       </div>
       <p class="hover-btn more">
-        <a href="./sales">詳しく見る</a>
+        <a href="./sales">詳しくみる</a>
       </p>
     </article>
     <article class="contact-list__single">
@@ -82,7 +82,7 @@
         <p class="title">ソフトウェアダウンロード</p>
       </div>
       <p class="hover-btn more">
-        <a href="<?php echo urls('software');?>">詳しく見る</a>
+        <a href="<?php echo urls('software');?>">詳しくみる</a>
       </p>
     </article>
   </div>

@@ -19,7 +19,7 @@ if ($the_query->have_posts()) :
     <?php echo strip_tags(get_field('middle-title'));?>
   </p>
   <p class="index-case__list--more hover-btn">
-    <a href="<?php echo get_permalink();?>">詳しく見る</a>
+    <a href="<?php echo get_permalink();?>">詳しくみる</a>
   </p>
 </div>
 <?php

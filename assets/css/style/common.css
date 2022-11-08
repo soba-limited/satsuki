@@ -3961,7 +3961,7 @@ a:hover .products-menu__text {
   flex-direction: row;
   margin-top: 40px;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: stretch;
   gap: 32px;
 }
@@ -3982,6 +3982,11 @@ a:hover .products-menu__text {
 
 .series-special__tiles .taiou img {
   width: 324px;
+}
+
+.series-special__tiles + .caption {
+  font-size: 1.5rem;
+  margin-top: 24px;
 }
 
 .series-special__kinou {
@@ -5044,6 +5049,10 @@ a:hover .products-menu__text {
 
   .company-about__title {
     font-size: 2.2rem;
+  }
+
+  .company-about dl:first-of-type dt {
+    padding-top: 0;
   }
 
   .company-about dt {
@@ -6230,6 +6239,10 @@ a:hover .products-menu__text {
     margin-top: 8px;
   }
 
+  .series-instructions__btn {
+    max-width: 110px;
+  }
+
   .series-mirror {
     margin-top: 48px;
   }
@@ -6388,6 +6401,10 @@ a:hover .products-menu__text {
 
   .series-special__tiles .taiou img {
     width: 286px;
+  }
+
+  .series-special__tiles + .caption {
+    font-size: 1.3rem;
   }
 
   .series-special__kinou {

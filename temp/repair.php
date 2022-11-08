@@ -20,7 +20,7 @@
             <?php echo svg('contact', 'tell-mark');?>
           </figure>
           <p class="number en">
-            0120-261-271
+            <a href="tel:0120261271">0120-261-271</a>
           </p>
         </div>
         <div class="right">
@@ -35,7 +35,7 @@
           <?php echo svg('contact', 'mail-mark');?>
         </figure>
         <p class="address en">
-          tech-support@mirai-touch.com
+          <a href="mailto:tech-support@mirai-touch.com">tech-support@mirai-touch.com</a>
         </p>
       </div>
     </article>

@@ -205,7 +205,7 @@
     <article class="company-about__list">
       <dl>
         <dt>
-          伍意国際貿易（上海）<br>
+          伍意国際貿易（上海）<br class="dn-max-s">
           有限公司
         </dt>
         <dd>
@@ -217,7 +217,7 @@
       </dl>
       <dl>
         <dt>
-          伍意香港有限公司<br>
+          伍意香港有限公司<br class="dn-max-s">
           （さつき HONG KONG）
         </dt>
         <dd>
@@ -235,7 +235,7 @@
       </dl>
       <dl>
         <dt>
-          さつきプラテック<br>
+          さつきプラテック<br class="dn-max-s">
           株式会社
         </dt>
         <dd>

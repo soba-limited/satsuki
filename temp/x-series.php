@@ -101,7 +101,7 @@
 
     <article class="series-special__contena">
       <h3 class="series-special__midashi">
-        授業支援ソフト<span>Tiles</span>
+        授業支援ソフト <span>Tiles</span>
       </h3>
       <p class="series-special__text">
         「Tiles」はユーザー登録やアプリインストール不要で授業に参加している生徒のタブレット画面を<br>
@@ -110,12 +110,12 @@
       <div class="series-special__tiles">
         <figure class="illust">
           <?php echo webp('x_series', 'illust');?>
-          <figcaption>生徒全員のPC画面を電子黒板上へ一覧表示。生徒1人1人をきめ細かくフォローすることができます。</figcaption>
         </figure>
         <figure class="taiou">
           <?php echo webp('x_series', 'taiou');?>
         </figure>
       </div>
+      <p class="series-special__contena--caption caption">生徒全員のPC画面を電子黒板上へ一覧表示。生徒1人1人をきめ細かくフォローすることができます。</p>
     </article>
 
     <article class="series-special__contena">
@@ -194,7 +194,7 @@
 <section class="series-shere">
   <div class="wrap">
     <h2 class="series-shere__title">
-      ファイル管理ソフト<span class="en">Share</span>
+      ファイル管理ソフト <span class="en">Share</span>
     </h2>
     <picture class="series-shere__image">
       <?php echo webp2('x_series', 'share');?>

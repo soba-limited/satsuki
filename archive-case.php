@@ -15,7 +15,7 @@
       <h2 class="archive-case__nav-title">
         カテゴリー
       </h2>
-      <p class="archive-case__now dn-min-s">
+      <p class="archive-case__now sp-cat-toggle dn-min-s">
         <?php if (!is_tax()) {
             echo 'すべて';
         } else {

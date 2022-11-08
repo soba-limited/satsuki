@@ -33,10 +33,10 @@
           <span>今、全国の学校で選ばれています。</span>
         </p>
         <p class="dn-min-s">
-          <span>徹底した現場目線で生まれた<i>電子</i></span>
+          <span>徹底した現場目線で生まれた</span>
         </p>
         <p class="dn-min-s">
-          <span><i>黒板「ミライタッチ」</i>。</span>
+          <span><i>電子黒板「ミライタッチ」</i>。</span>
         </p>
       </h2>
       <article class="index-first__flex">
@@ -292,7 +292,7 @@
         </div>
         <div class="index-problem__card--single">
           <p class="index-problem__card--text">
-            子どもたちにも、より一層<br>主体的に授業へ望んでほしい
+            子どもたちにも、より一層<br>主体的に授業へ望んでほしい。
           </p>
           <figure class="index-problem__card--image">
             <?php echo svg('index', 'problem3');?>
