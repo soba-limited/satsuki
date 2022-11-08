@@ -986,7 +986,7 @@ img.wp-post-image {
 
 .head {
   position: sticky;
-  z-index: 100;
+  z-index: 999999999;
   top: 0;
   left: 0;
   display: flex;
@@ -1098,7 +1098,7 @@ img.wp-post-image {
 
 .humburger {
   position: fixed;
-  z-index: 100;
+  z-index: 9999999999;
   top: 96px;
   right: 0;
   width: 100%;
