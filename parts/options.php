@@ -155,7 +155,7 @@
               </figure>
             </div>
             <p class="products-menu__text">
-              ソフトウェアダウンロード
+              ソフトウェア<br class="dn-min-s">ダウンロード
             </p>
           </a>
         </div>

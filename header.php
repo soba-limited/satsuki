@@ -69,59 +69,64 @@
 
   <section class="humburger dn-min-l" id="humMenu">
 
-    <nav class="humburger__nav">
-      <p class="humburger__nav--single">
-        <a href="<?php echo urls('story');?>">STORY</a>
-      <p>
-      <p class="humburger__nav--single">
-        <a href="<?php echo urls('information');?>">製品情報</a>
-      <p>
-      <ul class="humburger__nav--sub">
-        <li class="humburger__nav--sub__single">
-          <a href="<?php echo urls('information/x-series');?>">Xシリーズ</a>
-        </li>
-        <li class="humburger__nav--sub__single">
-          <a href="<?php echo urls('information/p-series');?>">Pシリーズ</a>
-        </li>
-        <li class="humburger__nav--sub__single">
-          <a href="<?php echo urls('information/c-series');?>">Cシリーズ</a>
-        </li>
-      </ul>
-      <p class="humburger__nav--single">
-        <a href="<?php echo urls('case');?>">導入事例</a>
-      <p>
-      <p class="humburger__nav--single">
-        <a href="<?php echo urls('faq');?>">よくある質問</a>
-      <p>
-      <p class="humburger__nav--single">
-        <a href="<?php echo urls('news');?>">お知らせ</a>
-      <p>
-      <p class="humburger__nav--single">
-        <a href="<?php echo urls('company');?>">会社概要</a>
-      <p>
-    </nav>
-    <section class="humburger__btns">
-      <p class="humburger__btns--single hover-btn">
-        <a href="<?php echo urls('document');?>">資料ダウンロード</a>
-      </p>
-      <p class="humburger__btns--single hover-btn">
-        <a href="<?php echo urls('contact');?>">お問い合わせ</a>
-      </p>
-    </section>
+    <div class="humburger__inner">
+      <nav class="humburger__nav">
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('/');?>">トップページ</a>
+        <p>
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('story');?>">STORY</a>
+        <p>
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('information');?>">製品情報</a>
+        <p>
+        <ul class="humburger__nav--sub">
+          <li class="humburger__nav--sub__single">
+            <a href="<?php echo urls('information/x-series');?>">Xシリーズ</a>
+          </li>
+          <li class="humburger__nav--sub__single">
+            <a href="<?php echo urls('information/p-series');?>">Pシリーズ</a>
+          </li>
+          <li class="humburger__nav--sub__single">
+            <a href="<?php echo urls('information/c-series');?>">Cシリーズ</a>
+          </li>
+        </ul>
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('case');?>">導入事例</a>
+        <p>
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('faq');?>">よくある質問</a>
+        <p>
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('news');?>">お知らせ</a>
+        <p>
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('company');?>">会社概要</a>
+        <p>
+      </nav>
+      <article class="humburger__btns">
+        <p class="humburger__btns--single hover-btn">
+          <a href="<?php echo urls('document');?>">資料ダウンロード</a>
+        </p>
+        <p class="humburger__btns--single hover-btn">
+          <a href="<?php echo urls('contact');?>">お問い合わせ</a>
+        </p>
+      </article>
 
-    <section class="humburger__bottom">
-      <p class="humburger__bottom--single">
-        <a href="<?php echo urls('privacy');?>">プライバシーポリシー</a>
-      </p>
-      <p class="humburger__bottom--single">
-        <a href="<?php echo urls('term');?>">アプリケーション利用規約</a>
-      </p>
-      <p class="humburger__bottom--single">
-        <a href="" target="_blank">
-          <?php echo svg('common', 'facebook');?>
-        </a>
-      </p>
-    </section>
+      <article class="humburger__bottom">
+        <p class="humburger__bottom--single">
+          <a href="<?php echo urls('privacy');?>">プライバシーポリシー</a>
+        </p>
+        <p class="humburger__bottom--single">
+          <a href="<?php echo urls('term');?>">アプリケーション利用規約</a>
+        </p>
+        <p class="humburger__bottom--single">
+          <a href="https://www.facebook.com/Collabon.SOL" target="_blank">
+            <?php echo svg('common', 'facebook');?>
+          </a>
+        </p>
+      </article>
+    </div>
 
 
   </section>

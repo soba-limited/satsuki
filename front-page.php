@@ -382,7 +382,7 @@
                 </figure>
               </div>
               <p class="index-menu__text">
-                ソフトウェアダウンロード
+                ソフトウェア<br class="dn-min-s">ダウンロード
               </p>
             </a>
           </div>

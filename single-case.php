@@ -12,15 +12,6 @@
 
   <div class="wrap-small">
     <section class="case-single__head">
-      <?php if (get_field('pdf')) {?>
-      <div class="case-single__head--pdf">
-        <a href="<?php the_field('pdf');?>" target="_blank">
-          <picture>
-            <?php echo svg2('case', 'pdf');?>
-          </picture>
-        </a>
-      </div>
-      <?php }?>
       <div class="case-single__head--title">
         <?php the_field('middle-title');?>
       </div>

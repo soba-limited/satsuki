@@ -1,6 +1,25 @@
+const html = document.querySelector('html');
+let bodyHeight; //ウィンドウの高さを入れる場所
+let scrollpos; //スクロールの位置を入れる場所
+
 $('.hum-toggle').on('click', function () {
-  $(this).toggleClass('active');
-  $('#humMenu').toggleClass('active');
+  if ($(this).hasClass('active')) {
+    $(this).removeClass('active');
+    html.classList.remove('is-menuOpen');
+    document.querySelector('.head').classList.remove('fixed');
+    document.querySelector('.head').style.display = 'sticky';
+    document.body.style.top = 0;
+    window.scrollTo(0, scrollpos);
+    $('#humMenu').removeClass('active');
+  } else {
+    scrollpos = window.pageYOffset;
+    html.classList.add('is-menuOpen');
+    document.querySelector('.head').classList.add('fixed');
+    bodyHeight = window.innerHeight;
+    document.body.style.top = scrollpos * -1 + 'px';
+    $(this).addClass('active');
+    $('#humMenu').addClass('active');
+  }
 });
 
 function topButton(elmId, duration) {

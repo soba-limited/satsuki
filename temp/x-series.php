@@ -24,7 +24,7 @@
 <section class="series-instructions">
   <div class="wrap">
     <figure class="series-instructions__btn">
-      <a href="<?php echo get_template_directory_uri();?>/assets/pdf/x.pdf">
+      <a href="<?php echo get_template_directory_uri();?>/assets/pdf/x.pdf" target="_blank">
         <?php echo webp('x_series', 'instructions');?>
       </a>
     </figure>
