@@ -1455,6 +1455,11 @@ img.wp-post-image {
   font-weight: 700;
 }
 
+.downloads__check input {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .downloads__text {
   padding-left: 24px;
 }
