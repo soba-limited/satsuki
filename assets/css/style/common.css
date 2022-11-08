@@ -61,7 +61,6 @@ html {
 body,
 html {
   width: 100%;
-  scroll-behavior: smooth;
 }
 
 .is-menuOpen body {
@@ -984,8 +983,12 @@ img.wp-post-image {
   margin-top: 1em;
 }
 
+body {
+  padding-top: 96px;
+}
+
 .head {
-  position: sticky;
+  position: fixed;
   z-index: 999999999;
   top: 0;
   left: 0;
@@ -4968,6 +4971,10 @@ a:hover .products-menu__text {
     font-size: 1.1rem;
   }
 
+  body {
+    padding-top: 62px;
+  }
+
   .head {
     height: 62px;
     padding: 16px;
@@ -5112,19 +5119,19 @@ a:hover .products-menu__text {
   }
 
   .contact-form__wrap textarea {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .contact-form__wrap input[type=text] {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .contact-form__wrap input[type=email] {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .contact-form__wrap select {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .contact-form__wrap .check {

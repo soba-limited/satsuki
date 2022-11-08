@@ -6,15 +6,12 @@ $('.hum-toggle').on('click', function () {
   if ($(this).hasClass('active')) {
     $(this).removeClass('active');
     html.classList.remove('is-menuOpen');
-    document.querySelector('.head').classList.remove('fixed');
-    document.querySelector('.head').style.display = 'sticky';
-    document.body.style.top = 0;
-    window.scrollTo(0, scrollpos);
+    //document.body.style.top = 0;
+    window.scroll(0, scrollpos);
     $('#humMenu').removeClass('active');
   } else {
     scrollpos = window.pageYOffset;
     html.classList.add('is-menuOpen');
-    document.querySelector('.head').classList.add('fixed');
     bodyHeight = window.innerHeight;
     document.body.style.top = scrollpos * -1 + 'px';
     $(this).addClass('active');

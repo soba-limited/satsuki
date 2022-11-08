@@ -102,7 +102,7 @@
       </h2>
       <div class="products-series__flex">
         <div class="products-series__left">
-          <h3 class="title">使いやすさを追求した<span>ロングセラー</span>シリーズ</h3>
+          <h3 class="title">使いやすさを追求した<br class="dn-min-s"><span>ロングセラー</span>シリーズ</h3>
           <p class="text">
             2014年に発売を開始し、長年学校現場で愛されてきたシリーズ。<br>
             誰でも簡単に使える簡単設計で、直感的な操作が可能です。
@@ -143,7 +143,7 @@
       </h2>
       <div class="products-series__flex">
         <div class="products-series__left">
-          <h3 class="title">学校の<span>”欲しい機能”</span>をこの1台に集約</h3>
+          <h3 class="title">学校の<span>”欲しい機能”</span>を<br class="dn-min-s">この1台に集約</h3>
           <p class="text">
             アプリダウンロード機能やセキュリティ機能、SDカードスロットなど、学校現場から要望の多い機能を多数搭載したシリーズです。
           </p>
