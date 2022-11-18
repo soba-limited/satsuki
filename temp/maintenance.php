@@ -159,8 +159,7 @@
     <article class="maintenance-selection__content toggle-tab premium">
       <div class="maintenance-selection__content--white">
         <p class="maintenance-selection__content--center-text">
-          最大5年間の延長保証サービスに加え、より安心・快適にご利用いただけるプレミアムサービスです。<br class="dn-max-s">
-          導入後のアフターサービスはもちろん、電子黒板の活用まで手厚くフォロー！
+          最大5年間の延長保証サービスに加え、より安心・快適にご利用いただけるプレミアムサービスです。<br class="dn-max-s">導入後のアフターサービスはもちろん、電子黒板の活用まで手厚くフォロー！
         </p>
         <h3 class="maintenance-selection__content--midashi2">
           8大特徴
