@@ -10,7 +10,7 @@
 <section class="maintenance-after">
   <div class="wrap">
     <div class="center">
-      <h2 class="maintenance-after__title">学びを止めない！ミライタッチの<span>アフターサポート</span></h2>
+      <h2 class="maintenance-after__title">学びを止めない！<br class="dn-min-s">ミライタッチの<br class="dn-min-s"><span>アフターサポート</span></h2>
     </div>
     <article class="maintenance-after__flex">
       <div class="maintenance-after__single">
@@ -19,11 +19,10 @@
         </figure>
         <div class="maintenance-after__text-box">
           <h3 class="maintenance-after__midashi">
-            全国<span class="dots">114拠点</span>の<br>
-            サポート体制
+            全国<span class="dots">114拠点</span>の<br>サポート体制
           </h3>
           <p class="maintenance-after__text">
-            全国に網羅する充実の<br>
+            全国に網羅する充実の<br class="dn-max-s">
             サポート拠点。<br>
             万が一の場合でもすぐに対応が可能。
           </p>
@@ -39,8 +38,7 @@
         </figure>
         <div class="maintenance-after__text-box">
           <h3 class="maintenance-after__midashi">
-            <span>専門の技術員</span>が<br>
-            伺います
+            <span>専門の技術員</span>が<br>伺います
           </h3>
           <p class="maintenance-after__text">
             専門の技術スタッフが、製品の不具合や故障に対するサポートを直接現地へ伺い対応いたします。
@@ -53,8 +51,7 @@
         </figure>
         <div class="maintenance-after__text-box">
           <h3 class="maintenance-after__midashi">
-            導入から<span>最長5年間</span>の<br>
-            長期保証
+            導入から<span>最長5年間</span>の<br>長期保証
           </h3>
           <p class="maintenance-after__text">
             導入日からメーカー保証の1年間を含む最長5年間の長期保証で安心がずっと続きます。
@@ -67,8 +64,7 @@
         </figure>
         <div class="maintenance-after__text-box">
           <h3 class="maintenance-after__midashi">
-            すぐに繋がる<br>
-            <span>サポートダイヤル</span>
+            すぐに繋がる<br><span>サポートダイヤル</span>
           </h3>
           <p class="maintenance-after__text">
             使い方のお問い合わせや急な故障など、すぐに相談できるコールセンターをご用意しています。
@@ -164,7 +160,7 @@
     <article class="maintenance-selection__content toggle-tab premium">
       <div class="maintenance-selection__content--white">
         <p class="maintenance-selection__content--center-text">
-          最大5年間の延長保証サービスに加え、より安心・快適にご利用いただけるプレミアムサービスです。<br>
+          最大5年間の延長保証サービスに加え、より安心・快適にご利用いただけるプレミアムサービスです。<br class="dn-max-s">
           導入後のアフターサービスはもちろん、電子黒板の活用まで手厚くフォロー！
         </p>
         <h3 class="maintenance-selection__content--midashi2">

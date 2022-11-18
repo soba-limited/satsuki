@@ -11,21 +11,31 @@
   <?php include(dirname(__FILE__).'/parts/bread-post.php');?>
 
   <div class="wrap">
-    <div class="news__double">
-      <aside class="news-nav">
-        <?php include(dirname(__FILE__).'/parts/aside-news.php');?>
-      </aside>
-      <section class="news-list">
-        <article class="news-list__list">
-          <?php include(dirname(__FILE__).'/parts/archive-news-loop.php');?>
-        </article>
-        <?php
+    <section class="news-list">
+      <h2 class="archive-news__nav-title">
+        カテゴリー
+      </h2>
+      <p class="archive-news__now sp-cat-toggle dn-min-s">
+        <?php if (!is_tax()) {
+            echo 'すべて';
+        } else {
+            echo get_queried_object()->name;
+        }?>
+      </p>
+      <article class="archive-news__nav">
+        <div class="archive-news__nav--wrap">
+          <?php include(dirname(__FILE__).'/parts/archive-news-nav.php');?>
+        </div>
+      </article>
+      <article class="news-list__list">
+        <?php include(dirname(__FILE__).'/parts/archive-news-loop.php');?>
+      </article>
+      <?php
         if (function_exists('wp_pagenavi')) {
             wp_pagenavi(array('query'=>$the_query));
         }
         wp_reset_query();?>
-      </section>
-    </div>
+    </section>
   </div>
 </main>
 

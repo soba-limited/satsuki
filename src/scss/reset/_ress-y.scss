@@ -86,9 +86,12 @@ ul {
 
 img {
   max-width: 100%;
-
   &.wp-post-image {
     height: auto !important;
     max-width: 100%;
   }
+}
+
+img[class*='wp'] {
+  height: auto !important;
 }

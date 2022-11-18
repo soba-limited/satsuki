@@ -49,79 +49,81 @@ function countUp(start, stop, duration, easing, element) {
 
 //=========== 折れ線グラフ（1本） ============//
 $('#chart01').on('inview', function (event, isInView) {
-  //画面上に入ったらグラフを描画
-  if (isInView) {
-    var ctx = document.getElementById('chart01'); //グラフを描画したい場所のid
-    var chart = new Chart(ctx, {
-      type: 'line', //グラフのタイプ
-      data: {
-        //グラフのデータ
-        labels: ['2017年', '2018年', '2019年', '2020年', '2021年'], //データの名前
-        datasets: [
-          {
-            label: '導入台数', //グラフのタイトル
-            borderColor: 'rgba(255,0,0,1)', //グラフの線の色
-            backgroundColor: 'rgba(255,0,0,0.1)', //グラフの背景色
-            data: ['600', '4600', '12600', '25600', '35600'], //横列に並ぶデータ
-            pointRadius: 1,
-          },
-        ],
-      },
-      options: {
-        //グラフのオプション
-        legend: {
-          display: false, //グラフの説明を非表示
-        },
-        tooltips: {
-          //グラフへカーソルを合わせた際の詳細表示の設定
-          callbacks: {
-            label: function (tooltipItems, data) {
-              if (tooltipItems.yLabel == '0') {
-                return '';
-              }
-              return (
-                data.datasets[tooltipItems.datasetIndex].label +
-                '：' +
-                tooltipItems.yLabel +
-                '件'
-              ); //Kgを最後につける
-            },
-          },
-        },
-        title: {
-          //上部タイトル表示の設定
-          display: false,
-          fontSize: 10,
-          text: '単位：Kg',
-        },
-        scales: {
-          yAxes: [
-            //グラフ縦軸（Y軸）設定
+  setTimeout(function () {
+    //画面上に入ったらグラフを描画
+    if (isInView) {
+      var ctx = document.getElementById('chart01'); //グラフを描画したい場所のid
+      var chart = new Chart(ctx, {
+        type: 'line', //グラフのタイプ
+        data: {
+          //グラフのデータ
+          labels: ['2017年', '2018年', '2019年', '2020年', '2021年'], //データの名前
+          datasets: [
             {
-              ticks: {
-                beginAtZero: true, //0からスタート
-                suggestedMax: 40000, //最大が1000
-                suggestedMin: 0, //最小が0
-                stepSize: 10000, //10づつ数値が刻まれる
-                callback: function (value) {
-                  return value; //数字＋Kgで表示
-                },
+              label: '導入台数', //グラフのタイトル
+              borderColor: 'rgba(255,0,0,1)', //グラフの線の色
+              backgroundColor: 'rgba(255,0,0,0.1)', //グラフの背景色
+              data: ['600', '4600', '12600', '25600', '35600'], //横列に並ぶデータ
+              pointRadius: 1,
+            },
+          ],
+        },
+        options: {
+          //グラフのオプション
+          legend: {
+            display: false, //グラフの説明を非表示
+          },
+          tooltips: {
+            //グラフへカーソルを合わせた際の詳細表示の設定
+            callbacks: {
+              label: function (tooltipItems, data) {
+                if (tooltipItems.yLabel == '0') {
+                  return '';
+                }
+                return (
+                  data.datasets[tooltipItems.datasetIndex].label +
+                  '：' +
+                  tooltipItems.yLabel +
+                  '件'
+                ); //Kgを最後につける
               },
             },
-          ],
-          xAxes: [
-            //棒グラフ縦軸（X軸）設定
-            {
-              barPercentage: 0.5, //バーの太さ
-            },
-          ],
+          },
+          title: {
+            //上部タイトル表示の設定
+            display: false,
+            fontSize: 10,
+            text: '単位：Kg',
+          },
+          scales: {
+            yAxes: [
+              //グラフ縦軸（Y軸）設定
+              {
+                ticks: {
+                  beginAtZero: true, //0からスタート
+                  suggestedMax: 40000, //最大が1000
+                  suggestedMin: 0, //最小が0
+                  stepSize: 10000, //10づつ数値が刻まれる
+                  callback: function (value) {
+                    return value; //数字＋Kgで表示
+                  },
+                },
+              },
+            ],
+            xAxes: [
+              //棒グラフ縦軸（X軸）設定
+              {
+                barPercentage: 0.5, //バーの太さ
+              },
+            ],
+          },
+          maintainAspectRatio: false,
         },
-        maintainAspectRatio: false,
-      },
-    });
-    let $count = $('#numCount');
-    countUp(0, 35000, 1000, 'easeOutQuart', $count);
-  }
+      });
+      let $count = $('#numCount');
+      countUp(0, 35000, 1000, 'easeOutQuart', $count);
+    }
+  }, 500);
 });
 
 $(document).ready(function () {

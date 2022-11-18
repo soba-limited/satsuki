@@ -41,9 +41,7 @@
       </h2>
       <article class="index-first__flex">
         <p class="index-first__flex--text slidein">
-          全国の教育現場でミライタッチが評価される点は、操作性の良さ。健常者や障がい者、IT機器の操作が苦手な方など関係なく、誰でも簡単に、使いやすいと感じてもらえる電子黒板です。<br>
-          <br>
-          一度使っていただければ、その良さは分かっていただけます。ぜひ体験してください。
+          全国の教育現場でミライタッチが評価される点は、操作性の良さ。健常者や障がい者、IT機器の操作が苦手な方など関係なく、誰でも簡単に、使いやすいと感じてもらえる電子黒板です。一度使っていただければ、その良さは分かっていただけます。ぜひ体験してください。
         </p>
         <figure class="index-first__flex--image slidein rag1">
           <?php echo webp('index', 'touch');?>
@@ -89,7 +87,7 @@
             <a href="<?php echo urls('information/c-series');?>">Cシリーズ</a>
           </p>
           <p class="index-series__flex--text">
-            2014年の発売から長年愛されてきた、ライタッチのスタンダードモデル。
+            2014年の発売から長年愛されてきた、<br>ミライタッチのスタンダードモデル。
           </p>
         </div>
         <div class="index-series__flex--single slidein rag2">
@@ -141,7 +139,7 @@
       <article class="index-concept__head">
         <div class="index-concept__head--text-box slidein">
           <h3 class="index-concept__head--title">
-            使う人誰もが<span>主役になれる、電子黒板。</span><br class="dn-max-l">
+            使う人誰もが<span>主役になれる、電子黒板。</span><br>
             夢を叶えて、<span>豊かな未来を創造</span>してほしい。
           </h3>
           <p class="index-concept__head--text">
@@ -156,7 +154,7 @@
       </article>
       <article class="index-concept__content">
         <h3 class="index-concept__content--title slidein">
-          ミライタッチは、<span>1931年創業の“社会貢献事業”会社</span>が開発しています。
+          ミライタッチは、<br class="dn-min-s"><span>1931年創業の“社会貢献事業”会社</span><br class="dn-min-s">が開発しています。
         </h3>
         <p class="index-concept__content--text slidein">
           さつき株式会社は創業以来、社会貢献につながる価値ある事業を展開してきました。<br>
@@ -199,7 +197,7 @@
         <div class="index-features__card--title">
           <p class="num">01</p>
           <h3 class="text">
-            一人ひとりの個性を尊重する、<span>インクルーシブ</span>な電子黒板。
+            一人ひとりの個性を尊重する、<br class="dn-min-s"><span>インクルーシブ</span>な電子黒板。
           </h3>
         </div>
         <div class="index-features__card--flex">
@@ -221,7 +219,7 @@
       <article class="index-features__card fadein rag1">
         <div class="index-features__card--title">
           <p class="num">02</p>
-          <h3 class="text">使用者の声を反映し日々進化。<span>バージョンアップする</span>電子黒板。</h3>
+          <h3 class="text">使用者の声を反映し日々進化。<br class="dn-min-s"><span>バージョンアップする</span>電子黒板。</h3>
         </div>
         <div class="index-features__card--flex rev">
           <div class="index-features__card--text-box">
@@ -231,7 +229,7 @@
             <ul class="index-features__card--list">
               <li>利用者の声を反映したバージョンアップ</li>
               <li>クラウド連携や授業支援ソフトなど様々なICT機器との連携</li>
-              <li>アンチウイルスソフト搭載。定期更新でセキュリティ対策万全</li>
+              <li>アンチウイルスソフト搭載。<br>定期更新でセキュリティ対策万全</li>
             </ul>
           </div>
           <figure class="index-features__card--image">
@@ -305,7 +303,7 @@
         <?php echo svg('index', 'delta');?>
       </figure>
       <div class="index-problem__sub-title slidein">
-        <h3>教育現場でのお悩みは、<span>ミライタッチで解決</span>可能です。</h3>
+        <h3>教育現場でのお悩みは、<span>ミライタッチで解決</span>可能！</h3>
       </div>
       <p class="index-problem__text slidein">
         ミライタッチが常に考えているのは、すべての人にとって“いい電子黒板”になること。授業の中心となる黒板が使いにくい物であっては、意味がありません。ミライタッチはすべての人に喜んでもらえるように、日々進化を続けています。もし教育現場でのお困りごとがございましたら、お気軽にご相談ください。ミライタッチを活用した解決策をご提案します。

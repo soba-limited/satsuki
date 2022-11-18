@@ -95,6 +95,9 @@
           <a href="<?php echo urls('case');?>">導入事例</a>
         <p>
         <p class="humburger__nav--single">
+          <a href="<?php echo urls('maintenance');?>">保証について</a>
+        <p>
+        <p class="humburger__nav--single">
           <a href="<?php echo urls('faq');?>">よくある質問</a>
         <p>
         <p class="humburger__nav--single">

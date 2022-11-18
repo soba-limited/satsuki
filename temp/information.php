@@ -65,7 +65,7 @@
         <div class="products-series__left">
           <h3 class="title">この1台で<span>授業が変わる</span></h3>
           <p class="text">
-            業界初となる「実物投影機」を内蔵した次世代型の電子黒板。<br>
+            業界初となる「実物投影機」を内蔵した次世代型の電子黒板。<br class="dn-max-s">
             従来モデルの使いやすさはそのままに、更なる進化を遂げた新シリーズです。
           </p>
           <figure class="thumbs"><?php echo webp('products', 'x-main');?></figure>
@@ -104,7 +104,7 @@
         <div class="products-series__left">
           <h3 class="title">使いやすさを追求した<br class="dn-min-s"><span>ロングセラー</span>シリーズ</h3>
           <p class="text">
-            2014年に発売を開始し、長年学校現場で愛されてきたシリーズ。<br>
+            2014年に発売を開始し、長年学校現場で愛されてきたシリーズ。<br class="dn-max-s">
             誰でも簡単に使える簡単設計で、直感的な操作が可能です。
           </p>
           <figure class="thumbs"><?php echo webp('products', 'c-main');?></figure>
