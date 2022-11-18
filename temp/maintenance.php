@@ -22,8 +22,7 @@
             全国<span class="dots">114拠点</span>の<br>サポート体制
           </h3>
           <p class="maintenance-after__text">
-            全国に網羅する充実の<br class="dn-max-s">
-            サポート拠点。<br>
+            全国に網羅する充実の<br class="dn-max-s">サポート拠点。<br>
             万が一の場合でもすぐに対応が可能。
           </p>
           <p class="maintenance-after__sub-text">
