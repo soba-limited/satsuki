@@ -6217,7 +6217,8 @@ a:hover .products-menu__text {
 
   .maintenance-selection__maker {
     margin-top: 24px;
-    padding: 32px;
+    padding: 0;
+    background: none;
   }
 
   .maintenance-selection__maker--white {
