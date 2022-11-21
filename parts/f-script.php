@@ -39,6 +39,9 @@ $('.pagetop-btn').hide();
 <?php elseif(get_post_type() == 'case'):?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/case.js">
 </script>
+<?php elseif(get_post_type() == 'movie'):?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/movie.js">
+</script>
 <?php endif;?>
 <?php
 if($post->post_parent):
