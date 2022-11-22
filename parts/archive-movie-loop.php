@@ -6,6 +6,7 @@ if(is_tax()) {
       'post_type' => 'movie', // カスタム投稿タイプ Products
       'posts_per_page' => 15,
       'paged' => $paged,
+      'order' => 'ASC',
       'post_status' => 'publish',
       'tax_query' => array(
         array(
@@ -20,6 +21,7 @@ if(is_tax()) {
       'post_type' => 'movie', // カスタム投稿タイプ Products
       'posts_per_page' => 15,
       'paged' => $paged,
+      'order' => 'ASC',
       'post_status' => 'publish'
 );
 }
