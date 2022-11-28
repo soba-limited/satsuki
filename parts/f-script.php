@@ -33,6 +33,16 @@ $('.pagetop-btn').hide();
 </script>
 <?php endif;?>
 
+<?php
+$page = get_post(get_the_ID());
+$slug = $page->post_name;
+$slugs = array('service','document','sales','sales_thanks');
+if (in_array($slug, $slugs)) :
+    ?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/kairos.js">
+</script>
+<?php endif;?>
+
 <?php if(get_post_type() == 'news'):?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/news.js">
 </script>

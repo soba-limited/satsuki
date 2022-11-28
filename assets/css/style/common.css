@@ -1670,6 +1670,20 @@ body {
   font-weight: 700;
 }
 
+.contact-thanks {
+  padding: 80px 0 144px;
+}
+
+.contact-thanks__title {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.contact-thanks__text {
+  margin-top: 48px;
+  text-align: center;
+}
+
 .faq-list {
   margin-top: 80px;
   padding-bottom: 128px;
@@ -5745,6 +5759,14 @@ a:hover .products-menu__text {
 
   .contact-child-tell__mail .address {
     font-size: 1.4rem;
+  }
+
+  .contact-thanks {
+    padding: 48px 0 72px;
+  }
+
+  .contact-thanks__title {
+    font-size: 2.4rem;
   }
 
   .faq-list {
