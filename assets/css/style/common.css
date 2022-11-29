@@ -1684,6 +1684,13 @@ body {
   text-align: center;
 }
 
+.contact-thanks__link {
+  max-width: 320px;
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .faq-list {
   margin-top: 80px;
   padding-bottom: 128px;

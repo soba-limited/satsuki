@@ -39,17 +39,16 @@
       <p class="head__nav--single">
         <a href="<?php echo urls('case');?>">導入事例</a>
       <p>
+        <!--
       <p class="head__nav--single">
         <a href="<?php echo urls('maintenance');?>">保証について</a>
       <p>
+        -->
       <p class="head__nav--single">
         <a href="<?php echo urls('faq');?>">よくある質問</a>
       <p>
       <p class="head__nav--single">
-        <a href="<?php echo urls('news');?>">お知らせ</a>
-      <p>
-      <p class="head__nav--single">
-        <a href="<?php echo urls('company');?>">会社概要</a>
+        <a href="<?php echo urls('movie');?>">ミライタッチの使い方</a>
       <p>
     </nav>
     <section class="head__btns dn-max-s">
@@ -94,8 +93,13 @@
         <p class="humburger__nav--single">
           <a href="<?php echo urls('case');?>">導入事例</a>
         <p>
+          <!--
         <p class="humburger__nav--single">
           <a href="<?php echo urls('maintenance');?>">保証について</a>
+        <p>
+          -->
+        <p class="humburger__nav--single">
+          <a href="<?php echo urls('movie');?>">ミライタッチの使い方</a>
         <p>
         <p class="humburger__nav--single">
           <a href="<?php echo urls('faq');?>">よくある質問</a>

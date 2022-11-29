@@ -1,8 +1,7 @@
-<section class="sv contact-sv" id="contact">
+<section class="sv download-sv" id="download">
   <h1 class="sv__page-title">
-    <span class="sub-jp">ご販売店様向け</span>
-    <span class="jp">お問い合わせ</span>
-    <span class="en">CONTACT</span>
+    <span class="jp">資料ダウンロード</span>
+    <span class="en">DOCUMENT DOWNLOAD</span>
   </h1>
 </section>
 
@@ -26,10 +25,10 @@
   </div>
 </section>
 
-<!--
+
 <iframe width="0" height="0" name="dummyframe" style="display:none;"></iframe>
 
-<form action="https://form.k3r.jp/satsuki/sales" name="sales_thanks_form" class="sales_thanks_form" method="POST" target="dummyframe" style="display:none;">
+<form action="https://form.k3r.jp/satsuki/document" name="document_thanks_form" class="document_thanks_form" method="POST" target="dummyframe" style="display:none;">
   <p>問い合わせ内容をご記入ください</p>
   <input type="hidden" name="f_item_text3" value="" />
   <p>会社・組織名</p>
@@ -44,14 +43,6 @@
   <input type="hidden" name="f_item_tel" value="" />
   <p>メールアドレス</p>
   <input type="hidden" name="f_item_mail" value="" />
-  <p>都道府県</p>
-  <input type="hidden" name="f_item_text2" value="" />
-  <p>住所：郵便番号</p>
-  <input type="hidden" name="f_item_zip" value="" />
-  <p>住所：市・区</p>
-  <input type="hidden" name="f_item_address_city" value="" />
-  <p>住所：ビル名・建物名・番号</p>
-  <input type="hidden" name="f_item_address_bldg" value="" />
 
   <input type="hidden" name="api_key" value="2e815110447005a20a830f11241d1eaac5e05a0d" />
   <input type="hidden" name="opt" value="1" />
@@ -59,4 +50,3 @@
 
   <input type="hidden" name="red_error" value="noredirect" />
 </form>
--->

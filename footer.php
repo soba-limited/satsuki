@@ -41,7 +41,8 @@
             <p class="big-link"><a href="<?php echo urls('story');?>">STORY</a></p>
             <p class="big-link"><a href="<?php echo urls('case');?>">導入事例</a></p>
             <p class="big-link"><a href="<?php echo urls('news');?>">お知らせ</a></p>
-            <p class="big-link"><a href="<?php echo urls('maintenance');?>">保証について</a></p>
+            <!--<p class="big-link"><a href="<?php echo urls('maintenance');?>">保証について</a></p>-->
+            <p class="big-link"><a href="<?php echo urls('movie');?>">ミライタッチの使い方</a></p>
           </div>
           <div class="footer__nav--center">
             <p class="big-link"><a href="<?php echo urls('information');?>">製品情報</a></p>

@@ -36,7 +36,7 @@ $('.pagetop-btn').hide();
 <?php
 $page = get_post(get_the_ID());
 $slug = $page->post_name;
-$slugs = array('service','document','sales','sales_thanks');
+$slugs = array('service','document','sales','sales_thanks','service_thanks','document_thanks');
 if (in_array($slug, $slugs)) :
     ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/kairos.js">
