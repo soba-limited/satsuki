@@ -993,7 +993,7 @@ body {
 
 .head {
   position: fixed;
-  z-index: 999999999;
+  z-index: 2000;
   top: 0;
   left: 0;
   display: flex;
@@ -1033,7 +1033,8 @@ body {
 }
 
 .head__nav--single a {
-  transition: all .2s ease;
+  transition: all .2s ease 0s;
+  transition-delay: .01s;
 }
 
 .head__nav--single a:hover {
@@ -1111,7 +1112,8 @@ body {
   width: 100%;
   max-width: 480px;
   height: calc(100vh - 96px);
-  transition: ease-in-out .3s all;
+  transition: ease-in-out .3s all 0s;
+  transition-delay: .01s;
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   background: #ccebe7;
@@ -1123,7 +1125,7 @@ body {
 }
 
 .humburger__inner {
-  padding: 40px 40px 80px;
+  padding: 40px 40px 15vh;
 }
 
 .humburger__nav--single {
@@ -3722,13 +3724,14 @@ a:hover .products-menu__text {
 
 .modal {
   position: fixed;
-  z-index: 1000;
+  z-index: 3000;
   top: 0;
   left: 0;
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  transition: ease .3s all;
+  transition: ease .3s all 0s;
+  transition-delay: .01s;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   opacity: 0;

@@ -1,8 +1,7 @@
-const html = document.querySelector('html');
-let bodyHeight; //ウィンドウの高さを入れる場所
-let scrollpos; //スクロールの位置を入れる場所
-
 $('.hum-toggle').on('click', function () {
+  const html = document.querySelector('html');
+  let bodyHeight; //ウィンドウの高さを入れる場所
+  let scrollpos; //スクロールの位置を入れる場所
   if ($(this).hasClass('active')) {
     $(this).removeClass('active');
     html.classList.remove('is-menuOpen');

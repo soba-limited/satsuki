@@ -26,7 +26,6 @@
   </div>
 </section>
 
-<!--
 <iframe width="0" height="0" name="dummyframe" style="display:none;"></iframe>
 
 <form action="https://form.k3r.jp/satsuki/sales" name="sales_thanks_form" class="sales_thanks_form" method="POST" target="dummyframe" style="display:none;">
@@ -59,4 +58,3 @@
 
   <input type="hidden" name="red_error" value="noredirect" />
 </form>
--->
