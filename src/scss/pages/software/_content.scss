@@ -1,0 +1,47 @@
+.software-download {
+  padding-bottom: 128px;
+  @include mq(s) {
+    padding-bottom: 64px;
+  }
+}
+.software {
+  &-content {
+    margin-top: 80px;
+    @include mq(s) {
+      margin-top: 48px;
+    }
+    &__title {
+      @include fz(23, 19);
+      padding-bottom: 12px;
+      border-bottom: 1px solid $border;
+      &::before {
+        content: '●';
+        color: $main;
+        margin-right: 8px;
+        transform: scale(0.6);
+        display: inline-block;
+      }
+    }
+    &__flex {
+      @include flex();
+      margin-top: 32px;
+      gap: 32px;
+      @include mq(s) {
+        margin-top: 24px;
+      }
+    }
+    &__single {
+      flex-basis: calc(50% - 16px);
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+      .text {
+        @include fz(18, 15);
+      }
+      .download {
+        margin-top: 24px;
+        width: 240px;
+      }
+    }
+  }
+}

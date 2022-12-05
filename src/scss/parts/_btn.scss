@@ -1,0 +1,26 @@
+.hover-btn {
+  @include fz(14, 12);
+  a,
+  button {
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    width: 100%;
+    background: $sub;
+    color: white;
+    transition: all 0.2s ease;
+    &:hover {
+      box-shadow: 0 5px 8px 2px rgb(0 0 0 / 14%);
+      transform: translateY(-1px);
+      background: $sub-peal;
+    }
+  }
+  &.black a {
+    background: #0a0a0a;
+    &:hover {
+      background: $text;
+    }
+  }
+}

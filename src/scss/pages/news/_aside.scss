@@ -1,0 +1,82 @@
+.news {
+  &-nav {
+    flex-basis: 208px;
+    @include mq(s) {
+      flex-basis: 100%;
+    }
+    &__category {
+      position: relative;
+    }
+    &__archive {
+      margin-top: 48px;
+      position: relative;
+      @include mq(s) {
+        margin-top: 16px;
+      }
+    }
+    &__title {
+      @include fz(16, 15);
+      color: $main;
+      border-bottom: 1px solid $border;
+      padding-bottom: 0.8em;
+      position: relative;
+      @include mq(s) {
+        cursor: pointer;
+        &::before {
+          content: '';
+          width: 8px;
+          height: 8px;
+          position: absolute;
+          border-bottom: 1px solid $main;
+          border-right: 1px solid $main;
+          right: 8px;
+          top: 4px;
+          transform: rotate(45deg);
+        }
+        &.active::before {
+          transform: translateY(4px) rotate(225deg);
+        }
+      }
+    }
+    &__list {
+      margin-top: 16px;
+      @include mq(s) {
+        position: absolute;
+        padding: 24px;
+        background: $back_gree;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        margin-top: 0;
+        z-index: 20;
+        display: none;
+      }
+      li {
+        @include fz(14, 13);
+        position: relative;
+        padding-left: 20px;
+        margin-top: 1em;
+        &:first-of-type {
+          margin-top: 0;
+        }
+        &::before {
+          content: '';
+          width: 8px;
+          height: 8px;
+          border-top: 1px solid $main;
+          border-right: 1px solid $main;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%) rotate(45deg);
+        }
+        a {
+          transition: 0.2s ease all;
+          &:hover {
+            color: $main;
+          }
+        }
+      }
+    }
+  }
+}

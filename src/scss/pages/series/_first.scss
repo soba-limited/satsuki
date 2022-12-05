@@ -1,0 +1,56 @@
+.series {
+  &-first {
+    &__title {
+      @include fz(30, 22);
+      span {
+        color: $main;
+      }
+    }
+    &__text {
+      margin-top: 1em;
+      @include fz(17, 15);
+    }
+    &__flex {
+      @include flex();
+      padding: 0 24px;
+      margin-top: 60px;
+      gap: 32px 72px;
+      @include mq(rvs) {
+        flex-wrap: nowrap;
+      }
+      @include mq(s) {
+        padding: 0;
+        justify-content: center;
+        margin-top: 32px;
+      }
+    }
+    &__only-main {
+      margin-top: 56px;
+      text-align: center;
+      @include mq(s) {
+        margin-top: 48px;
+      }
+      img {
+        width: 668px;
+      }
+    }
+    &__sub {
+      @include mq(s) {
+        flex-basis: 150px;
+      }
+    }
+    &__icons {
+      text-align: center;
+      margin-top: 60px;
+      @include mq(s) {
+        margin-top: 8px;
+      }
+      img {
+        width: 980px;
+      }
+      .w650 img {
+        width: 650px;
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+.pagetop-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 72px;
+  z-index: 30;
+  transition: ease 0.2s all;
+  @include mq(s) {
+    right: 16px;
+    bottom: 16px;
+    transform: scale(0.8);
+    transform-origin: right bottom;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.footer {
+  background: $text;
+  padding: 48px 0;
+  p {
+    color: white;
+  }
+  &__flex {
+    @include flex();
+    flex-wrap: nowrap;
+    gap: 32px 78px;
+    @include mq(m) {
+      flex-direction: column;
+    }
+  }
+  &__left {
+    flex-basis: 280px;
+    @include mq(m) {
+      max-width: 280px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+  &__logo {
+    img {
+      width: 100%;
+      max-width: 280px;
+    }
+  }
+  &__name {
+    margin-top: 56px;
+    @include fz(15, 15);
+    @include mq(m) {
+      margin-top: 32px;
+    }
+  }
+  &__text {
+    margin-top: 1em;
+    @include fz(13, 13);
+  }
+  &__as {
+    @include fz(11, 11);
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  &__right {
+    flex: 1;
+    @include flex();
+    flex-direction: column;
+    @include mq(m) {
+    }
+  }
+  &__nav {
+    @include flex();
+    gap: 0 48px;
+    .big-link {
+      @include fz(14, 14);
+      margin-top: 0.4em;
+      &:first-of-type {
+        margin-top: 0;
+      }
+      a {
+        transition: ease 0.2s all;
+        &:hover {
+          color: $main;
+        }
+      }
+      &.mt2em {
+        margin-top: 1.6em;
+      }
+    }
+    .small-link {
+      @include fz(12, 12);
+      margin-top: 0.4em;
+      &:first-of-type {
+        margin-top: 0;
+      }
+      &::before {
+        content: '-';
+        padding-right: 4px;
+      }
+      a {
+        transition: ease 0.2s all;
+        &:hover {
+          color: $main;
+        }
+      }
+    }
+  }
+  &__bottoms {
+    @include flex(flex-start, center);
+    gap: 8px 16px;
+    @include mq(m) {
+      width: 100%;
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-between;
+    }
+  }
+  &__small-link {
+    @include fz(12, 12);
+    a {
+      display: inline-block;
+      transition: ease 0.2s all;
+      &:hover {
+        color: $main;
+      }
+      @include mq(m) {
+        display: block;
+      }
+    }
+    a + a {
+      margin-left: 32px;
+      position: relative;
+      @include mq(m) {
+        margin-left: 0;
+      }
+      &::before {
+        content: '';
+        width: 1px;
+        height: 12px;
+        position: absolute;
+        left: -16px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: white;
+        @include mq(m) {
+          display: none;
+        }
+      }
+    }
+  }
+  &__copy {
+    @include fz(11, 11);
+    @include mq(m) {
+      text-align: center;
+    }
+    &.mt1em {
+      margin-top: 1em;
+    }
+  }
+}

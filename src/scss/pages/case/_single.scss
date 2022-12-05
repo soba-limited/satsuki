@@ -1,0 +1,228 @@
+.case-single {
+  &__head {
+    margin-top: 80px;
+    @include flex($align: flex-start);
+    flex-direction: row-reverse;
+    gap: 32px 48px;
+    padding: 24px 0;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    @include mq(s) {
+      margin-top: 48px;
+    }
+    &--pdf {
+      flex-basis: 136px;
+      aspect-ratio: 1/1;
+      background: $text;
+      @include mq(s) {
+        flex-basis: 200px;
+        aspect-ratio: 4/1;
+        margin-left: auto;
+        margin-right: 0;
+      }
+      a {
+        @include flex(center, center);
+        padding: 8px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        &::before {
+          content: '';
+          position: absolute;
+          right: 8px;
+          bottom: 8px;
+          border-right: 4px solid $main;
+          border-bottom: 4px solid $main;
+          border-top: 4px solid transparent;
+          border-left: 4px solid transparent;
+          transition: ease 0.2s all;
+          z-index: 10;
+        }
+        &:hover::before {
+          width: 100%;
+          height: 100%;
+          right: 0;
+          bottom: 0;
+          background: $main;
+        }
+        img {
+          position: relative;
+          z-index: 20;
+        }
+      }
+    }
+    &--title {
+      flex: 1;
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+      p {
+        @include fz(26, 20);
+        font-weight: 700;
+        span {
+          color: $main;
+        }
+      }
+    }
+  }
+  &__info {
+    margin-top: 48px;
+    background: $main;
+    @include mq(s) {
+      margin-top: 32px;
+    }
+    &--mv {
+      width: 100%;
+      aspect-ratio: 90/48;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &--bottoms {
+      padding: 32px 48px;
+      gap: 24px 0;
+      @include flex();
+      @include mq(s) {
+        padding: 32px 16px;
+      }
+    }
+    &--title {
+      flex-basis: 100%;
+      color: white;
+      @include fz(20, 18);
+    }
+    &--left,
+    &--right {
+      flex-basis: 50%;
+      @include mq(rvs) {
+        padding: 0 24px;
+        border-left: 2px solid white;
+      }
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+      .text {
+        @include fz(16, 14);
+        margin-bottom: 0.6em;
+        color: white;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+        &.small {
+          @include fz(14, 12);
+        }
+      }
+    }
+    &--right {
+      @include mq(s) {
+        padding-top: 24px;
+        border-top: 1px solid white;
+      }
+    }
+  }
+  &__mondai {
+    margin-top: 48px;
+    @include mq(s) {
+      margin-top: 32px;
+    }
+    &--card {
+      background: $main-pl;
+      border: 10px solid $main-pl;
+      box-shadow: 0 0 0 1px white inset;
+      padding: 48px;
+      position: relative;
+      @include mq(s) {
+        border-width: 5px;
+        padding: 32px 16px;
+      }
+      &::before {
+        content: '';
+        width: 4px;
+        height: calc(100% - 96px);
+        position: absolute;
+        background: white;
+        left: 99px;
+        top: 48px;
+        @include mq(s) {
+          left: 31px;
+          top: 32px;
+          height: calc(100% - 64px);
+        }
+      }
+    }
+    dl {
+      position: relative;
+      z-index: 20;
+      @include flex($align: center);
+      flex-wrap: nowrap;
+      gap: 0 24px;
+      margin-top: 24px;
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+    dt {
+      flex-basis: 107px;
+      @include mq(s) {
+        flex-basis: 33px;
+      }
+    }
+    dd {
+      flex: 1;
+      @include fz(15, 13);
+    }
+  }
+  &__content {
+    margin-top: 56px;
+    padding-bottom: 128px;
+    @include mq(s) {
+      margin-top: 48px;
+      padding-bottom: 64px;
+    }
+    h2 {
+      padding-left: 1em;
+      @include fz(22, 20);
+      position: relative;
+      margin: 1em 0;
+      &::before {
+        content: '';
+        width: 4px;
+        height: 50%;
+        left: 0;
+        top: 0;
+        position: absolute;
+        background: $main;
+      }
+      &::after {
+        content: '';
+        width: 4px;
+        height: 50%;
+        left: 0;
+        top: 50%;
+        position: absolute;
+        background: $text;
+      }
+    }
+    h3 {
+      margin: 1em 0;
+      @include fz(18, 16);
+      padding-left: 6em;
+      color: $text-peal;
+      position: relative;
+      &::before {
+        content: '';
+        width: 5em;
+        height: 1px;
+        background: $text-peal;
+        position: absolute;
+        left: 0;
+        top: 50%;
+      }
+    }
+    p {
+      margin-bottom: 1.6em;
+    }
+  }
+}

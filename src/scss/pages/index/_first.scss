@@ -1,0 +1,57 @@
+.index {
+  &-first {
+    position: relative;
+    z-index: 20;
+    padding-top: 90px;
+    &__title {
+      p {
+        text-align: center;
+        font-size: 3.2rem;
+        color: white;
+        margin-top: 6px;
+        @include mq(s) {
+          text-align: justify;
+          font-size: 5.3vw;
+        }
+        &:first-of-type {
+          margin-top: 0;
+        }
+      }
+      span {
+        padding: 8px 16px;
+        background: $text;
+        @include mq(s) {
+          padding: 8px;
+          display: inline-block;
+          width: 100%;
+        }
+      }
+      i {
+        color: $main;
+      }
+    }
+    &__flex {
+      width: 100%;
+      max-width: 844px;
+      gap: 32px 48px;
+      @include flex($align: center);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 32px;
+      &--text {
+        flex-basis: calc(50% - 24px);
+        @include fz(17, 15);
+        text-align: left;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+      &--image {
+        flex-basis: calc(50% - 24px);
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+    }
+  }
+}

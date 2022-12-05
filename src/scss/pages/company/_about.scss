@@ -1,0 +1,64 @@
+.company {
+  padding-bottom: 128px;
+  @include mq(s) {
+    padding-bottom: 64px;
+  }
+  &-about {
+    margin-top: 80px;
+    @include mq(s) {
+      margin-top: 48px;
+    }
+    &__title {
+      @include fz(30, 22);
+      text-align: center;
+    }
+    &__list {
+      margin-top: 30px;
+    }
+    dl {
+      @include flex();
+      border-bottom: 1px solid $border;
+      @include mq(s) {
+        &:first-of-type dt {
+          padding-top: 0;
+        }
+      }
+    }
+    dt {
+      flex-basis: 190px;
+      padding: 32px 0;
+      position: relative;
+      @include fz(17, 15);
+      font-weight: 700;
+      @include mq(s) {
+        flex-basis: 100%;
+        padding: 24px 0 0;
+      }
+      &::before {
+        content: '';
+        width: 100%;
+        height: 0;
+        border-bottom: 1px solid $main;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        @include mq(s) {
+          display: none;
+        }
+      }
+    }
+    dd {
+      flex: 1;
+      padding: 32px 0;
+      @include fz(16, 14);
+      @include mq(s) {
+        flex-basis: 100%;
+        padding: 16px 0 24px;
+      }
+      a {
+        color: $main;
+        text-decoration: underline;
+      }
+    }
+  }
+}

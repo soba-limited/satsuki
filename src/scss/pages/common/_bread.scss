@@ -1,0 +1,65 @@
+.bread {
+  margin-top: 20px;
+  padding: 0 50px;
+  @include mq(s) {
+    padding: 0 16px;
+  }
+  ul {
+    @include flex(flex-start, center);
+    gap: 0 12px;
+  }
+  li {
+    @include fz(12, 10);
+  }
+  .arrow {
+    width: 4px;
+    height: 8px;
+    position: relative;
+    &::before {
+      content: '';
+      width: 1px;
+      height: 6px;
+      transform: translateY(-1px) translateX(2px) rotate(-45deg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $main;
+    }
+    &::after {
+      content: '';
+      width: 1px;
+      height: 6px;
+      transform: translateY(1px) translateX(2px) rotate(45deg);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: $main;
+    }
+  }
+}
+
+.series-nav {
+  background: #0a0a0a;
+  padding: 10px 0;
+  &__list {
+    @include flex(center);
+    gap: 0 24px;
+    @include mq(s) {
+      gap: 0 14px;
+    }
+  }
+  &__single {
+    color: white;
+    @include fz(15, 12);
+    a {
+      transition: ease 0.2s all;
+      &:hover {
+        color: $main;
+      }
+    }
+    &.bar {
+      width: 1px;
+      background: $main;
+    }
+  }
+}

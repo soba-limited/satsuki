@@ -1,0 +1,129 @@
+.maintenance {
+  &-after {
+    margin-top: 80px;
+    @include mq(s) {
+      margin-top: 48px;
+    }
+    .center {
+      text-align: center;
+      @include mq(s) {
+        text-align: justify;
+      }
+    }
+    &__title {
+      display: inline-block;
+      padding: 0 48px;
+      position: relative;
+      @include fz(32, 22);
+      @include mq(s) {
+        padding: 0 20px;
+        width: 100%;
+        text-align: center;
+      }
+      &::before {
+        content: '';
+        width: 16px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('../../images/index/dec-bar-l.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+      &::after {
+        content: '';
+        width: 16px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: url('../../images/index/dec-bar-r.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+      span {
+        color: $main;
+      }
+    }
+    &__flex {
+      margin-top: 56px;
+      @include flex();
+      gap: 56px;
+      @include mq(m) {
+        width: 640px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @include mq(s) {
+        margin-top: 32px;
+        gap: 32px 0;
+      }
+    }
+    &__single {
+      flex-basis: calc(50% - 28px);
+      @include flex();
+      flex-direction: row-reverse;
+      gap: 24px 48px;
+      @include mq(rvm) {
+        flex-wrap: nowrap;
+      }
+      @include mq(m) {
+        flex-basis: 100%;
+        padding-top: 56px;
+        border-top: 1px solid $main;
+      }
+      @include mq(s) {
+        padding-top: 32px;
+      }
+    }
+    &__image {
+      flex-basis: 184px;
+      text-align: center;
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+    }
+    &__text-box {
+      flex: 1;
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+    }
+    &__midashi {
+      @include fz(30, 20);
+      line-height: 1.8;
+      span {
+        color: $main;
+        &.dots {
+          position: relative;
+          padding-right: 14px;
+          display: inline-block;
+          &::before {
+            content: '※';
+            position: absolute;
+            right: 0;
+            top: 0;
+            @include fz(16, 13);
+          }
+        }
+      }
+      @include mq(s) {
+        br {
+          display: none;
+        }
+      }
+    }
+    &__text {
+      @include fz(17, 15);
+      margin-top: 1.7em;
+      @include mq(s) {
+        margin-top: 1.2em;
+      }
+    }
+    &__sub-text {
+      margin-top: 1em;
+      @include fz(15, 13);
+      font-weight: 400;
+    }
+  }
+}

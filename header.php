@@ -36,6 +36,10 @@
 
   <?php wp_head(); ?>
   <?php include(dirname(__FILE__).'/parts/tag.php');?>
+  <script type="text/javascript">
+  var Kairos3Tracker = "satsuki";
+  </script>
+  <script type="text/javascript" charset="utf-8" src="//c.k3r.jp"></script>
 </head>
 
 <?php include(dirname(__FILE__).'/parts/func.php'); ?>
@@ -105,10 +109,10 @@
             <a href="<?php echo urls('information/x-series');?>">Xシリーズ</a>
           </li>
           <li class="humburger__nav--sub__single">
-            <a href="<?php echo urls('information/p-series');?>">Pシリーズ</a>
+            <a href="<?php echo urls('information/c-series');?>">Cシリーズ</a>
           </li>
           <li class="humburger__nav--sub__single">
-            <a href="<?php echo urls('information/c-series');?>">Cシリーズ</a>
+            <a href="<?php echo urls('information/p-series');?>">Pシリーズ</a>
           </li>
         </ul>
         <p class="humburger__nav--single">

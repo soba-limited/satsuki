@@ -1,0 +1,105 @@
+.faq {
+  &-list {
+    margin-top: 80px;
+    padding-bottom: 128px;
+    @include mq(s) {
+      margin-top: 48px;
+      padding-bottom: 64px;
+    }
+    &__title {
+      @include fz(26, 20);
+      padding-bottom: 12px;
+      border-bottom: 1px solid $border;
+    }
+    &__single {
+      margin-top: 56px;
+      @include mq(s) {
+        margin-top: 32px;
+      }
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+    &__list {
+      dl {
+        border-bottom: 1px solid $border;
+      }
+      dt {
+        padding: 24px 48px 24px 16px;
+        position: relative;
+        @include flex(flex-start, stretch);
+        gap: 0 12px;
+        cursor: pointer;
+        .first {
+          @include fz(30, 30);
+          font-weight: 700;
+          color: $main;
+          line-height: 1;
+        }
+        .text {
+          @include fz(17, 15);
+        }
+        .toggle-btn {
+          position: absolute;
+          width: 32px;
+          height: 32px;
+          background: $main-peal;
+          border-radius: 50%;
+          top: 50%;
+          right: 8px;
+          transform: translateY(-50%);
+          &::before {
+            content: '';
+            width: 16px;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background: #707070;
+            transition: ease 0.2s all;
+            transform: translate(-50%, -50%);
+          }
+          &::after {
+            content: '';
+            width: 16px;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background: #707070;
+            transition: ease 0.2s all;
+            transform: translate(-50%, -50%) rotate(90deg);
+          }
+        }
+        &.active {
+          .toggle-btn {
+            &::before {
+              transform: translate(-50%, -50%) rotate(180deg);
+            }
+            &::after {
+              transform: translate(-50%, -50%) rotate(360deg);
+            }
+          }
+        }
+      }
+      dd {
+        display: none;
+        .answer__text {
+          padding: 0 48px 24px 16px;
+          position: relative;
+          @include flex(flex-start, stretch);
+          gap: 0 12px;
+          .first {
+            @include fz(30, 30);
+            font-weight: 700;
+            color: $text-peal;
+            line-height: 1;
+          }
+          .text {
+            @include fz(17, 15);
+          }
+        }
+      }
+    }
+  }
+}

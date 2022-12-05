@@ -1,0 +1,40 @@
+.index {
+  &-case {
+    margin-top: 96px;
+    @include mq(s) {
+      margin-top: 56px;
+    }
+    &__title {
+      @include fz(33, 24);
+      .en {
+        color: $main;
+        @include fz();
+        vertical-align: baseline;
+      }
+    }
+    &__list {
+      margin-top: 32px;
+      figure {
+        margin: 0;
+      }
+      &--title {
+        padding: 10px 16px;
+        text-align: center;
+        background-color: $main;
+        color: white;
+      }
+      &--text {
+        margin-top: 16px;
+        padding-bottom: 24px;
+      }
+      &--more {
+        margin-top: auto;
+        margin-bottom: 0;
+        max-width: 276px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.series {
+  &-shere {
+    margin-top: 80px;
+    @include mq(s) {
+      margin-top: 48px;
+    }
+    &__title {
+      width: 100%;
+      padding-bottom: 12px;
+      position: relative;
+      border-bottom: 2px solid $border;
+      @include fz(26, 22);
+      font-weight: 500;
+      line-height: 26px;
+      font-weight: 500;
+      .en {
+        @include fz(30, 24);
+      }
+      @include mq(s) {
+        line-height: 22px;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 176px;
+        height: 0;
+        border-bottom: 2px solid $main;
+      }
+    }
+    &__image {
+      display: block;
+      margin-top: 48px;
+      @include mq(s) {
+        margin-top: 32px;
+      }
+    }
+  }
+}

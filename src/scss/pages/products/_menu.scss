@@ -1,0 +1,79 @@
+.products {
+  &-menu {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+    padding-bottom: 128px;
+    @include mq(s) {
+      margin-top: 56px;
+      padding-bottom: 72px;
+    }
+    &__card {
+      background: $back_blue;
+      padding: 48px;
+      @include mq(s) {
+        padding: 32px 24px;
+      }
+    }
+    &__title {
+      text-align: center;
+      @include fz(26, 20);
+    }
+    &__flex {
+      margin-top: 32px;
+      @include flex();
+      gap: 20px;
+      @include mq(s) {
+        gap: 20px 16px;
+      }
+    }
+    &__single {
+      flex-basis: calc(100% / 4 - 20px * 3 / 4);
+      @include mq(s) {
+        flex-basis: calc(50% - 8px);
+      }
+      a {
+        display: block;
+      }
+    }
+    &__icon {
+      aspect-ratio: 16/10;
+      background: white;
+      @include flex(center, center);
+      position: relative;
+      transition: all 0.2s ease;
+      a:hover & {
+        box-shadow: 0 5px 8px 2px rgb(0 0 0 / 14%);
+        transform: translateY(-1px);
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        border-top: 5px solid transparent;
+        border-right: 5px solid $text;
+        border-bottom: 5px solid $text;
+        border-left: 5px solid transparent;
+      }
+      figure {
+        @include mq(s) {
+          transform: scale(0.75);
+        }
+      }
+    }
+    &__text {
+      text-align: center;
+      margin-top: 16px;
+      transition: ease 0.2s all;
+      @include fz(15, 14);
+      @include mq(s) {
+        margin-top: 8px;
+      }
+      a:hover & {
+        color: $main;
+      }
+    }
+  }
+}

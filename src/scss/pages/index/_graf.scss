@@ -1,0 +1,57 @@
+.index {
+  &-graf {
+    margin-top: 104px;
+    &__flex {
+      gap: 32px 48px;
+      @include flex($align: center);
+      &--text-box {
+        flex-basis: calc(43% - 48px);
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+      &--canvas {
+        flex-basis: 57%;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+        min-height: 320px;
+        canvas {
+          max-width: 100%;
+        }
+      }
+      &--title {
+        @include fz(24, 17);
+        @include mq(s) {
+          text-align: center;
+        }
+      }
+      &--text {
+        @include fz(24, 17);
+        margin-top: 40px;
+        padding-left: 24px;
+        font-weight: 700;
+        @include mq(s) {
+          text-align: center;
+          padding-left: 0;
+        }
+      }
+      &--counts {
+        @include fz(28, 24);
+        font-weight: 700;
+        color: $main;
+        padding-left: 24px;
+        line-height: 1;
+        @include mq(s) {
+          text-align: center;
+          padding-left: 0;
+        }
+        .count {
+          @include fz(63, 53);
+          vertical-align: baseline;
+          padding-right: 4px;
+        }
+      }
+    }
+  }
+}

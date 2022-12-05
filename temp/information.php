@@ -50,6 +50,9 @@
         </p>
       </div>
     </article>
+    <p class="hover-btn products-about__link black">
+      <a href="#option">オプション(周辺機器)</a>
+    </p>
   </div>
 </section>
 

@@ -1,0 +1,126 @@
+.archive-movie {
+  &__list {
+    padding-top: 80px;
+    padding-bottom: 128px;
+    @include mq(s) {
+      padding-top: 48px;
+      padding-bottom: 64px;
+    }
+  }
+  &__nav-title {
+    @include fz(16, 14);
+    color: $main;
+  }
+  &__now {
+    border-radius: 999px;
+    position: relative;
+    background: $main;
+    color: white;
+    padding: 16px 32px;
+    @include fz(14, 14);
+    line-height: 14px;
+    margin-top: 8px;
+    &::before {
+      content: '';
+      border-right: 1px solid white;
+      border-bottom: 1px solid white;
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      right: 32px;
+      top: 50%;
+      transform: translateY(-50%) rotate(45deg);
+    }
+  }
+  &__nav {
+    margin-top: 8px;
+    position: relative;
+    @include mq(s) {
+      margin-top: 0;
+    }
+    &--wrap {
+      @include flex(flex-start, stretch);
+      gap: 16px;
+      @include mq(s) {
+        position: absolute;
+        width: 100%;
+        background: $main-peal;
+        padding: 24px 32px;
+        display: none;
+      }
+    }
+    &--single {
+      @include fz(14, 14);
+      line-height: 14px;
+      font-weight: 700;
+      @include mq(s) {
+        width: 100%;
+        margin-top: 24px;
+        &:first-of-type {
+          margin-top: 0;
+        }
+      }
+      a {
+        border-radius: 50px;
+        color: $main;
+        background: $main-peal;
+        text-align: center;
+        padding: 16px 24px;
+        display: block;
+        @include mq(s) {
+          border-radius: unset;
+          padding: 0;
+          color: $text;
+          text-align: left;
+        }
+      }
+      &.active {
+        a {
+          background: $main;
+          color: white;
+          @include mq(s) {
+            background: unset;
+            color: $main;
+          }
+        }
+      }
+    }
+  }
+  &__list {
+    &--list {
+      margin-top: 40px;
+      @include flex(flex-start, stretch);
+      gap: 56px 40px;
+      @include mq(s) {
+        margin-top: 32px;
+      }
+    }
+    &--single {
+      flex-basis: calc(100% / 3 - 40px * 2 / 3);
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+    }
+    figure {
+      margin: 0;
+    }
+    &--title {
+      padding: 10px 16px;
+      text-align: center;
+      background-color: $main;
+      color: white;
+    }
+    &--text {
+      margin-top: 16px;
+      padding-bottom: 24px;
+    }
+    &--more {
+      margin-top: auto;
+      margin-bottom: 0;
+      max-width: 276px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

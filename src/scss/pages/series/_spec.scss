@@ -1,0 +1,34 @@
+.series {
+  &-spec {
+    margin-top: 80px;
+    padding: 80px 0;
+    background: $back_gree;
+    @include mq(s) {
+      margin-top: 48px;
+      padding: 48px 0;
+    }
+    &__title {
+      @include fz(30, 22);
+      line-height: 30px;
+      padding-left: 12px;
+      border-left: 6px solid $main;
+      @include mq(s) {
+        line-height: 22px;
+      }
+    }
+    &__overview {
+      margin-top: 56px;
+      width: 100%;
+      overflow: auto;
+      @include mq(s) {
+        margin-top: 32px;
+      }
+    }
+    &__list {
+      display: block;
+      @include mq(s) {
+        width: 600px;
+      }
+    }
+  }
+}

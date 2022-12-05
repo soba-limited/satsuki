@@ -1,0 +1,109 @@
+.index {
+  &-features {
+    margin-top: 96px;
+    padding: 88px 0;
+    background: $main-peal;
+    @include mq(s) {
+      margin-top: 56px;
+      padding: 40px 0;
+    }
+    &__title {
+      @include fz(33, 24);
+      .en {
+        color: $main;
+        @include fz();
+        vertical-align: baseline;
+      }
+    }
+    &__card {
+      margin-top: 32px;
+      border-radius: 10px;
+      background: white;
+      padding: 60px 50px;
+      &:first-of-type {
+        margin-top: 40px;
+      }
+      @include mq(s) {
+        padding: 32px 24px;
+        margin-top: 48px;
+      }
+      &--title {
+        @include flex($align: center);
+        gap: 0 32px;
+        position: relative;
+        .num {
+          @include fz(83, 47);
+          font-weight: 700;
+          color: $main;
+          flex-basis: 96px;
+          line-height: 1;
+          @include mq(s) {
+            flex-basis: unset;
+            position: absolute;
+            top: -56px;
+            left: 0;
+          }
+        }
+        .text {
+          @include fz(30, 20);
+          flex-basis: calc(100% - 96px - 32px);
+          @include mq(s) {
+            flex-basis: 100%;
+          }
+          span {
+            color: $main;
+          }
+        }
+      }
+      &--flex {
+        margin-top: 32px;
+        @include flex();
+        gap: 32px 56px;
+        &.rev {
+          flex-direction: row-reverse;
+        }
+        @include mq(s) {
+          margin-top: 16px;
+        }
+      }
+      &--text-box {
+        flex-basis: calc(50% - 56px);
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+      &--text {
+        @include fz(17, 15);
+      }
+      &--list {
+        margin-top: 24px;
+        padding-top: 24px;
+        border-top: 1px solid $border;
+        padding-left: 1.8em;
+        li {
+          text-indent: -1.2em;
+          &::before {
+            content: '●';
+            color: $main;
+            padding-right: 4px;
+          }
+        }
+      }
+      &--image {
+        flex-basis: 50%;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+    }
+    &__more {
+      margin-top: 56px;
+      max-width: 310px;
+      margin-left: auto;
+      margin-right: auto;
+      @include mq(s) {
+        margin-top: 32px;
+      }
+    }
+  }
+}

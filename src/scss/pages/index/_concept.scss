@@ -1,0 +1,93 @@
+.index {
+  &-concept {
+    margin-top: 104px;
+    @include mq(s) {
+      margin-top: 64px;
+    }
+    &__title {
+      text-align: center;
+      @include fz(36, 24);
+      span {
+        display: block;
+      }
+      .en {
+        color: $main;
+        @include fz();
+      }
+    }
+    &__head {
+      margin-top: 72px;
+      @include flex();
+      gap: 32px 48px;
+      &--text-box {
+        flex-basis: 54%;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+      &--title {
+        @include fz(30, 22);
+        letter-spacing: -0.01em;
+        span {
+          color: $main;
+        }
+      }
+      &--text {
+        @include fz(18, 15);
+        margin-top: 1.4em;
+      }
+      &--image {
+        flex-basis: calc(46% - 48px);
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+        position: relative;
+        figure {
+          position: absolute;
+          width: 600px;
+          height: 100%;
+          top: 0;
+          left: 0;
+          @include mq(m) {
+            width: calc(100% + 20px);
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          @include mq(s) {
+            position: relative;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+    &__content {
+      margin-top: 96px;
+      text-align: center;
+      @include mq(s) {
+        margin-top: 56px;
+      }
+      &--title {
+        @include fz(28, 22);
+        span {
+          color: $main;
+        }
+      }
+      &--text {
+        margin-top: 1em;
+      }
+      &--flex {
+        @include flex(center, center);
+        flex-wrap: nowrap;
+        gap: 32px 40px;
+        margin-top: 40px;
+        @include mq(s) {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

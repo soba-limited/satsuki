@@ -1,0 +1,13 @@
+.series {
+  &-instructions {
+    margin-top: 16px;
+    &__btn {
+      max-width: 150px;
+      margin-left: auto;
+      margin-right: 0;
+      @include mq(s) {
+        max-width: 110px;
+      }
+    }
+  }
+}

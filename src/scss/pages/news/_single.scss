@@ -1,0 +1,155 @@
+.news {
+  &__main {
+    margin-top: 80px;
+    padding-bottom: 128px;
+    @include mq(s) {
+      margin-top: 48px;
+      padding-bottom: 64px;
+    }
+  }
+  &-single {
+    &__info {
+      gap: 8px 24px;
+      @include flex(flex-start, center);
+      position: relative;
+      @include mq(m) {
+        flex-wrap: wrap;
+      }
+    }
+    &__date {
+      color: $text-peal;
+      @include fz(16, 15);
+    }
+    &__cat {
+      flex-basis: 72px;
+      @include fz(11, 10);
+      background: $main;
+      text-align: center;
+      color: white;
+      line-height: 1;
+      padding: 4px;
+    }
+    &__title {
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: 1px solid $border;
+      @include fz(26, 20);
+    }
+    &__content {
+      margin-top: 48px;
+      @include mq(s) {
+        margin-top: 32px;
+      }
+      p {
+        margin-bottom: 1em;
+      }
+      .card {
+        border-left: 6px solid $main;
+        border-right: 6px solid $main;
+        padding: 24px;
+        background: $main-peal;
+        @include mq(s) {
+          border-width: 4px;
+          padding: 24px 16px;
+        }
+      }
+      h2 {
+        @include fz(24, 18);
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        border-bottom: 1px solid $border;
+      }
+      h3 {
+        padding-left: 0.5em;
+        border-left: 6px solid $main;
+        margin: 1em 0;
+        @include fz(22, 16);
+        line-height: 22px;
+        @include mq(s) {
+          line-height: 16px;
+        }
+      }
+      h4 {
+        margin: 1em 0;
+        @include fz(20, 15);
+      }
+      p {
+        @include fz(16, 14);
+      }
+    }
+    &__nav {
+      margin-top: 64px;
+      @include flex(space-around, center);
+      @include mq(s) {
+        margin-top: 48px;
+      }
+      a {
+        transition: ease 0.2s all;
+      }
+      a:hover {
+        color: $main;
+      }
+      .prev {
+        a {
+          line-height: 14px;
+          @include fz(14, 14);
+          font-weight: 500;
+          font-family: 'Noto Sans', 'Noto Sans JP', -apple-system,
+            BlinkMacSystemFont, Roboto, 'Segoe UI', 'Helvetica Neue',
+            HelveticaNeue, YuGothic, 'Yu Gothic Medium', 'Yu Gothic', Verdana,
+            Meiryo, sans-serif;
+          position: relative;
+          padding-left: 16px;
+          &::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-top: 1px solid $main;
+            border-left: 1px solid $main;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%) rotate(-45deg);
+          }
+        }
+      }
+      .list {
+        a {
+          line-height: 14px;
+          @include fz(14, 14);
+          font-weight: 500;
+          font-family: 'Noto Sans', 'Noto Sans JP', -apple-system,
+            BlinkMacSystemFont, Roboto, 'Segoe UI', 'Helvetica Neue',
+            HelveticaNeue, YuGothic, 'Yu Gothic Medium', 'Yu Gothic', Verdana,
+            Meiryo, sans-serif;
+          position: relative;
+        }
+      }
+      .next {
+        a {
+          line-height: 14px;
+          @include fz(14, 14);
+          font-weight: 500;
+          font-family: 'Noto Sans', 'Noto Sans JP', -apple-system,
+            BlinkMacSystemFont, Roboto, 'Segoe UI', 'Helvetica Neue',
+            HelveticaNeue, YuGothic, 'Yu Gothic Medium', 'Yu Gothic', Verdana,
+            Meiryo, sans-serif;
+          position: relative;
+          padding-right: 16px;
+          &::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-top: 1px solid $main;
+            border-right: 1px solid $main;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%) rotate(45deg);
+          }
+        }
+      }
+    }
+  }
+}

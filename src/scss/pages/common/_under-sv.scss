@@ -1,0 +1,28 @@
+.under-page {
+  .sv {
+    text-align: center;
+    height: 260px;
+    @include flex(center, center);
+    background: $main-right url('../../images/common/under-sv.svg') repeat;
+    background-position: center;
+    @include mq(s) {
+      height: 180px;
+    }
+    &__page-title {
+      span {
+        display: block;
+      }
+      .sub-jp {
+        @include fz(26, 16);
+      }
+      .jp {
+        @include fz(38, 26);
+      }
+      .en {
+        color: $main;
+        @include fz(18, 14);
+        margin-top: 0.4em;
+      }
+    }
+  }
+}

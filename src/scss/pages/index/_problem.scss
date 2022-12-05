@@ -1,0 +1,123 @@
+.index {
+  &-problem {
+    margin-top: 96px;
+    @include mq(s) {
+      margin-top: 56px;
+    }
+    &__title {
+      text-align: center;
+      @include fz(36, 24);
+      position: relative;
+      z-index: 10;
+      @include mq(s) {
+        padding: 32px 0 0;
+        border-radius: 10px 10px 0 0;
+        background: $back_gree;
+      }
+      &::before {
+        content: '';
+        width: 133px;
+        height: 217px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: -1;
+        transform: translate(-50%, -50%);
+        background: url('../../images/index/problem-icon.svg') no-repeat;
+        background-size: contain;
+        @include mq(s) {
+          width: 69px;
+          height: 112px;
+        }
+      }
+      span {
+        display: block;
+      }
+      .en {
+        color: $main;
+        @include fz();
+      }
+    }
+    &__card {
+      margin-top: 60px;
+      background: $back_gree;
+      padding: 60px;
+      @include flex();
+      gap: 32px 48px;
+      border-radius: 10px;
+      @include mq(s) {
+        margin-top: 0;
+        border-radius: 0 0 10px 10px;
+        padding: 40px 24px;
+      }
+      &--single {
+        flex-basis: calc(100% / 3 - 48px * 2 / 3);
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+      &--text {
+        text-align: center;
+        @include fz(19, 17);
+        letter-spacing: -0.01em;
+        @include mq(s) {
+          text-align: justify;
+        }
+      }
+      &--image {
+        margin-top: 32px;
+        @include mq(s) {
+          margin-top: 24px;
+        }
+      }
+    }
+    &__delta {
+      margin-top: 48px;
+      text-align: center;
+      @include mq(m) {
+        width: 192px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    &__sub-title {
+      text-align: center;
+      margin-top: 40px;
+      h3 {
+        display: inline-block;
+        padding: 0 48px;
+        position: relative;
+        @include fz(28, 22);
+        @include mq(s) {
+          padding: 0 20px;
+        }
+        &::before {
+          content: '';
+          width: 16px;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background: url('../../images/index/dec-bar-l.svg') no-repeat;
+          background-size: 100% 100%;
+        }
+        &::after {
+          content: '';
+          width: 16px;
+          height: 100%;
+          position: absolute;
+          right: 0;
+          top: 0;
+          background: url('../../images/index/dec-bar-r.svg') no-repeat;
+          background-size: 100% 100%;
+        }
+        span {
+          color: $main;
+        }
+      }
+    }
+    &__text {
+      margin-top: 16px;
+    }
+  }
+}

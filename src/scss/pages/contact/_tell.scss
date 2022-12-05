@@ -1,0 +1,161 @@
+.contact {
+  &-tell {
+    margin-top: 80px;
+    @include mq(s) {
+      margin-top: 48px;
+    }
+    &__card {
+      background: $main-right;
+      padding: 48px;
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      @include mq(s) {
+        padding: 32px 16px;
+      }
+      &::before {
+        content: '';
+        width: 100%;
+        height: 12px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: $main;
+      }
+    }
+    &__title {
+      text-align: center;
+      @include fz(28, 20);
+    }
+    &__flex {
+      margin-top: 40px;
+      padding-top: 40px;
+      border-top: 1px solid $border;
+      @include flex(flex-start, center);
+      gap: 24px 32px;
+      @include mq(s) {
+        margin-top: 24px;
+        padding-top: 24px;
+      }
+      .left {
+        @include flex(flex-start, center);
+        flex-wrap: nowrap;
+        gap: 0 12px;
+        @include mq(s) {
+          flex-basis: 100%;
+          justify-content: center;
+          background: $main;
+          border-radius: 50px;
+          padding: 8px;
+        }
+        figure {
+          @include mq(s) {
+            img {
+              filter: brightness(0) invert(1);
+            }
+          }
+        }
+        .number {
+          @include fz(43, 23);
+          font-weight: 700;
+          @include mq(s) {
+            color: white;
+          }
+        }
+      }
+      .right {
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+        .text {
+          @include fz(14, 13);
+        }
+      }
+    }
+  }
+  &-child-tell {
+    margin-top: 80px;
+    @include mq(s) {
+      margin-top: 48px;
+    }
+    &__card {
+      background: $main-right;
+      padding: 48px;
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      @include mq(s) {
+        padding: 32px 16px;
+      }
+    }
+    &__title {
+      @include fz(26, 20);
+      @include mq(s) {
+        text-align: center;
+      }
+    }
+    &__flex {
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid $border;
+      @include flex(flex-start, center);
+      gap: 0 32px;
+      @include mq(s) {
+        margin-top: 24px;
+        padding-top: 24px;
+      }
+      .left {
+        @include flex(flex-start, center);
+        flex-wrap: nowrap;
+        gap: 0 12px;
+        @include mq(s) {
+          flex-basis: 100%;
+          justify-content: center;
+          background: $main;
+          border-radius: 50px;
+          padding: 8px;
+        }
+        figure {
+          @include mq(s) {
+            img {
+              filter: brightness(0) invert(1);
+            }
+          }
+        }
+        .number {
+          @include fz(43, 23);
+          font-weight: 700;
+          @include mq(s) {
+            color: white;
+          }
+        }
+      }
+      .right {
+        @include mq(s) {
+          flex-basis: 100%;
+          margin-top: 2em;
+        }
+        .text {
+          @include fz(14, 13);
+        }
+      }
+    }
+    &__mail {
+      @include flex(flex-start, center);
+      flex-wrap: nowrap;
+      gap: 0 12px;
+      @include mq(s) {
+        margin-top: 16px;
+      }
+      figure {
+        @include mq(s) {
+          width: 24px;
+        }
+      }
+      .address {
+        @include fz(34, 14);
+        font-weight: 700;
+      }
+    }
+  }
+}

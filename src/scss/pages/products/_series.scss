@@ -1,0 +1,162 @@
+.products {
+  &-series {
+    margin-top: 80px;
+    padding: 8px 0 80px;
+    background: $main-right;
+    @include mq(s) {
+      margin-top: 48px;
+      padding: 8px 0 48px;
+    }
+    &__single {
+      padding-top: 72px;
+      @include mq(s) {
+        padding-top: 40px;
+      }
+    }
+    &__title {
+      width: 100%;
+      @include flex(flex-start, center);
+      padding-bottom: 12px;
+      position: relative;
+      gap: 0 24px;
+      border-bottom: 2px solid $border;
+      @include mq(s) {
+        gap: 0 12px;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 176px;
+        height: 0;
+        border-bottom: 2px solid $main;
+      }
+      .title {
+        @include fz(38, 22);
+        font-weight: 500;
+        line-height: 38px;
+        @include mq(s) {
+          line-height: 24px;
+        }
+      }
+      .tag {
+        @include fz(16, 12);
+        color: white;
+        background: $main;
+        font-weight: 500;
+        line-height: 1;
+        padding: 4px 8px;
+      }
+    }
+    &__flex {
+      @include flex($align: flex-end);
+      gap: 32px 56px;
+      margin-top: 32px;
+    }
+    &__left {
+      flex: 1;
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+      .title {
+        @include fz(30, 22);
+        span {
+          color: $main;
+        }
+      }
+      .text {
+        @include fz(17, 15);
+        margin-top: 0.8em;
+      }
+      .thumbs {
+        margin-top: 40px;
+        //padding: 0 40px;
+        @include mq(s) {
+          margin-top: 24px;
+          padding: 0;
+        }
+        img {
+          box-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.1);
+        }
+      }
+      .more {
+        margin-top: 48px;
+        width: 235px;
+        margin-right: auto;
+      }
+    }
+    &__right {
+      flex-basis: 430px;
+      @include mq(s) {
+        flex-basis: 100%;
+      }
+      .icons {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .cheaks {
+        margin-top: 48px;
+        .midashi {
+          overflow: hidden;
+          color: white;
+          span {
+            z-index: 10;
+            padding: 4px 46px 4px 24px;
+            position: relative;
+            display: inline-block;
+            &::before {
+              content: '';
+              width: 100%;
+              height: 100%;
+              z-index: -1;
+              left: 0;
+              top: 0;
+              background: $main;
+              position: absolute;
+              transform: skewX(30deg) translateX(-16px);
+              transform-origin: center left;
+            }
+          }
+        }
+        ul {
+          padding: 24px;
+          background: white;
+          li {
+            padding-left: 24px;
+            position: relative;
+            margin-top: 0.6em;
+            &:first-of-type {
+              margin-top: 0;
+            }
+            &::before {
+              content: '';
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              left: 0;
+              top: 6px;
+              background: url('../../images/products/check.svg');
+              background-size: contain;
+            }
+            @include mq(s) {
+              padding-left: 20px;
+              &::before {
+                width: 14px;
+                height: 14px;
+                top: 5px;
+              }
+            }
+          }
+        }
+      }
+      .more {
+        margin-top: 40px;
+        width: 235px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}

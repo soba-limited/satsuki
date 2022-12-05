@@ -1,0 +1,279 @@
+.series {
+  &-special {
+    margin-top: 80px;
+    padding: 80px 0;
+    background: $main-right;
+    @include mq(s) {
+      margin-top: 48px;
+      padding: 48px 0;
+    }
+    &__title {
+      @include fz(30, 22);
+      line-height: 30px;
+      padding-left: 12px;
+      border-left: 6px solid $main;
+      @include mq(s) {
+        line-height: 22px;
+      }
+    }
+    &__contena {
+      margin-top: 40px;
+    }
+    &__midashi {
+      width: 100%;
+      padding-bottom: 12px;
+      position: relative;
+      border-bottom: 2px solid $border;
+      @include fz(26, 22);
+      font-weight: 500;
+      line-height: 26px;
+      font-weight: 500;
+      @include mq(s) {
+        line-height: 22px;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 176px;
+        height: 0;
+        border-bottom: 2px solid $main;
+      }
+    }
+    &__dobble {
+      @include flex(flex-start);
+      margin-top: 56px;
+      gap: 24px 64px;
+      @include mq(s) {
+        margin-top: 32px;
+        justify-content: center;
+      }
+      &--text {
+        flex: 1;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+      &--image {
+        flex-basis: 438px;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+        text-align: center;
+        &.img322 img {
+          width: 322px;
+          @include mq(s) {
+            width: 248px;
+          }
+        }
+      }
+    }
+    &__icons {
+      @include flex(center, flex-start);
+      gap: 32px 0;
+      margin-top: 60px;
+      @include mq(rvs) {
+        flex-wrap: nowrap;
+      }
+      @include mq(s) {
+        margin-top: 32px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+      }
+      &--single {
+        @include flex(center, flex-start);
+        gap: 16px 32px;
+        flex: 1;
+        @include mq(m) {
+          flex-direction: column;
+          align-content: center;
+          align-items: center;
+        }
+        @include mq(s) {
+          flex-direction: row;
+          justify-content: flex-start;
+          width: 280px;
+          gap: 8px 32px;
+        }
+        .caption {
+          @include fz(14, 12);
+          text-align: center;
+          @include mq(s) {
+            flex-basis: 100%;
+          }
+        }
+        .icons {
+          @include mq(s) {
+            flex-basis: 80px;
+          }
+        }
+      }
+    }
+    &__text {
+      margin-top: 1.6em;
+      @include fz(17, 15);
+      &.nomt {
+        margin-top: 0;
+      }
+    }
+    &__tiles {
+      @include flex(space-around);
+      gap: 32px;
+      margin-top: 40px;
+      @include mq(rvm) {
+        flex-wrap: nowrap;
+      }
+      @include mq(m) {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+      }
+      .illust {
+        text-align: center;
+        figcaption {
+          @include fz(15, 13);
+          display: block;
+          margin-top: 1em;
+        }
+        img {
+          width: 554px;
+        }
+      }
+      .taiou {
+        img {
+          width: 324px;
+          @include mq(s) {
+            width: 286px;
+          }
+        }
+      }
+      & + .caption {
+        @include fz(15, 13);
+        margin-top: 24px;
+      }
+    }
+    &__kinou {
+      margin-top: 48px;
+      @include flex();
+      gap: 32px;
+      @include mq(rvm) {
+        flex-wrap: nowrap;
+      }
+      @include mq(m) {
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @include mq(s) {
+        margin-top: 32px;
+        justify-content: center;
+      }
+      &--single {
+        @include mq(m) {
+          flex-basis: calc(50% - 16px);
+        }
+        @include mq(s) {
+          flex-basis: 252px;
+        }
+      }
+    }
+    &__can {
+      max-width: 648px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 48px;
+      @include flex();
+      gap: 32px 48px;
+      @include mq(s) {
+        margin-top: 32px;
+        justify-content: center;
+      }
+      &--image {
+        flex-basis: 252px;
+      }
+      &--text-box {
+        flex: 1;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+        .text {
+          @include fz(18, 15);
+        }
+        .border-text {
+          color: $main;
+          @include fz(18, 15);
+          border-top: 1px solid $border;
+          border-bottom: 1px solid $border;
+          line-height: 1;
+          padding: 0.7em 1em;
+          margin-top: 1em;
+        }
+        ul {
+          padding: 12px 0;
+          border-bottom: 1px solid $border;
+          li {
+            padding-left: 1em;
+          }
+          li + li {
+            margin-top: 0.1em;
+          }
+        }
+      }
+    }
+    &__tsushin {
+      margin-top: 56px;
+      @include flex();
+      padding: 0 40px;
+      gap: 12px;
+      @include mq(s) {
+        margin-top: 48px;
+        padding: 0;
+      }
+      .single {
+        flex: 1;
+        padding: 24px;
+        background: $main-peal;
+        position: relative;
+        z-index: 20;
+        &::before {
+          content: '';
+          position: absolute;
+          right: 24px;
+          top: 24px;
+          z-index: -1;
+        }
+        &.usb::before {
+          background: url('../../images/x_series/usb.svg') no-repeat;
+          background-size: contain;
+          width: 98px;
+          height: 28px;
+        }
+        &.secure::before {
+          background: url('../../images/x_series/secure.svg') no-repeat;
+          background-size: contain;
+          width: 56px;
+          height: 57px;
+        }
+        &.wifi::before {
+          background: url('../../images/x_series/wifi.svg') no-repeat;
+          background-size: contain;
+          width: 53px;
+          height: 49px;
+        }
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+        .title {
+          font-weight: 700;
+          @include fz(20, 16);
+        }
+        .text {
+          @include fz(15, 13);
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+}

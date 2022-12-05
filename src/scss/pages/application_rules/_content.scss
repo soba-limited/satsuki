@@ -1,0 +1,28 @@
+.application_rules,
+.privacy {
+  &-content {
+    margin-top: 80px;
+    padding-bottom: 128px;
+    @include mq(s) {
+      margin-top: 48px;
+      padding-bottom: 64px;
+    }
+    .text {
+      @include fz(16, 14);
+      margin-top: 1.2em;
+      &.mt0 {
+        margin-top: 0;
+      }
+      span {
+        font-weight: 700;
+      }
+    }
+    .title {
+      @include fz(20, 17);
+      margin-top: 2em;
+    }
+    .list {
+      margin-top: 24px;
+    }
+  }
+}

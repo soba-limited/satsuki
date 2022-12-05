@@ -1,0 +1,85 @@
+.index {
+  &-news {
+    margin-top: 88px;
+    @include mq(s) {
+      margin-top: 56px;
+    }
+    &__head {
+      @include flex($align: center);
+      gap: 0 32px;
+      &--title {
+        @include fz(33, 24);
+        .en {
+          color: $main;
+          @include fz();
+          vertical-align: baseline;
+        }
+      }
+      &--more {
+        flex-basis: 160px;
+      }
+    }
+    &__list {
+      margin-top: 40px;
+      &--single {
+        padding-bottom: 30px;
+        border-bottom: 1px solid $border;
+        margin-top: 30px;
+        &:first-of-type {
+          margin-top: 0;
+        }
+        a {
+          gap: 8px 24px;
+          @include flex(flex-start, center);
+          flex-wrap: nowrap;
+          position: relative;
+          padding: 0 10px;
+          @include mq(m) {
+            flex-wrap: wrap;
+          }
+          &:hover {
+            .index-news__list--title {
+              color: $main;
+            }
+            .index-news__list--arrow {
+              transform: translate(7px, -50%);
+            }
+          }
+        }
+      }
+      &--date {
+        color: $text-peal;
+      }
+      &--cat {
+        flex-basis: 72px;
+        @include fz(11, 10);
+        background: $main;
+        text-align: center;
+        color: white;
+        line-height: 1;
+        padding: 4px;
+      }
+      &--title {
+        padding-right: 32px;
+        flex: 1;
+        transition: ease 0.2s all;
+        @include mq(m) {
+          flex-basis: 100%;
+        }
+      }
+      &--arrow {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translate(0, -50%);
+        transition: ease 0.2s all;
+      }
+    }
+    &__more {
+      margin-top: 40px;
+      max-width: 240px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

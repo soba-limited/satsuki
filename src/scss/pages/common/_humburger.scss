@@ -1,0 +1,60 @@
+.humburger {
+  position: fixed;
+  top: 96px;
+  z-index: 3000;
+  right: 0;
+  height: calc(100vh - 96px);
+  background: $main-peal;
+  width: 100%;
+  max-width: 480px;
+  transform: translateX(100%);
+  transition: ease-in-out 0.3s all;
+  &.active {
+    transform: translateX(0);
+  }
+  @include mq(s) {
+    top: 62px;
+    height: calc(100vh - 62px);
+    overflow: auto;
+  }
+  &__inner {
+    padding: 40px 40px 15vh;
+  }
+  &__nav {
+    &--single {
+      @include fz(1.6rem, 1.5rem);
+      margin-top: 1.5em;
+      &:first-of-type {
+        margin-top: 0;
+      }
+      i {
+        display: inline-flex;
+      }
+    }
+    &--sub {
+      &__single {
+        margin-top: 1.5em;
+        @include fz(1.6rem, 1.5rem);
+        padding-left: 1em;
+      }
+    }
+  }
+  &__btns {
+    margin-top: 72px;
+    @include flex();
+    gap: 16px;
+    &--single {
+      flex-basis: calc(50% - 8px);
+    }
+  }
+  &__bottom {
+    margin-top: 32px;
+    @include flex(space-between, flex-end);
+    &--single {
+      @include fz(1.4rem, 1.2rem);
+      &:first-of-type {
+        flex-basis: 100%;
+      }
+    }
+  }
+}

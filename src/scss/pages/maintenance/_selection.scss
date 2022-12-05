@@ -1,0 +1,260 @@
+.maintenance {
+  &-selection {
+    margin-top: 64px;
+    padding: 80px 0;
+    background: $main-right;
+    @include mq(s) {
+      margin-top: 48px;
+      padding: 48px 0;
+    }
+    &__title {
+      @include fz(30, 22);
+      line-height: 30px;
+      padding-left: 12px;
+      border-left: 6px solid $main;
+      @include mq(s) {
+        line-height: 22px;
+      }
+    }
+    &__maker {
+      margin-top: 40px;
+      padding: 48px;
+      background: $main-peal;
+      @include mq(s) {
+        margin-top: 24px;
+        padding: 0;
+        background: none;
+      }
+      &--white {
+        padding: 48px;
+        background: white;
+        border-radius: 10px;
+        text-align: center;
+        @include mq(s) {
+          padding: 32px 16px;
+        }
+      }
+      &--title {
+        @include fz(30, 20);
+      }
+      &--text {
+        @include fz(17, 15);
+        margin-top: 1em;
+        @include mq(s) {
+          text-align: left;
+        }
+      }
+      &--image {
+        display: block;
+        margin-top: 40px;
+        @include mq(s) {
+          margin-top: 24px;
+        }
+      }
+    }
+    &__plus {
+      width: 80px;
+      height: 80px;
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      &::before {
+        content: '';
+        width: 80px;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        background: $main;
+        transform: translateY(-50%);
+      }
+      &::after {
+        content: '';
+        width: 80px;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        background: $main;
+        transform: translateY(-50%) rotate(90deg);
+      }
+    }
+    &__nav {
+      @include flex();
+      gap: 0 16px;
+      flex-wrap: nowrap;
+      margin-top: 40px;
+      @include mq(s) {
+        margin-top: 24px;
+        gap: 0 4px;
+      }
+      &--btn {
+        @include fz(30, 14);
+        font-weight: 700;
+        color: white;
+        border-radius: 10px 10px 0 0;
+        background-color: $main;
+        text-align: center;
+        flex-basis: 50%;
+        @include flex(center, center);
+        height: 80px;
+        cursor: pointer;
+        &#premium {
+          background-color: $sub;
+        }
+        @include mq(s) {
+          height: 48px;
+        }
+      }
+    }
+    &__content {
+      background: $main;
+      padding: 48px;
+      display: none;
+      &.premium {
+        background: $sub;
+      }
+      &.active {
+        display: block;
+      }
+      @include mq(s) {
+        padding: 0;
+        border-top: 6px solid #00c8ac;
+        background: none;
+        &.premium {
+          border-color: #e66084;
+        }
+      }
+      &--white {
+        background: white;
+        border-radius: 10px;
+        padding: 48px;
+        @include mq(s) {
+          padding: 32px 16px;
+          border-radius: 0 0 10px 10px;
+        }
+      }
+      &--center-text {
+        text-align: center;
+        @include fz(17, 15);
+        @include mq(s) {
+          text-align: left;
+        }
+      }
+      &--triple {
+        margin-top: 40px;
+        @include flex();
+        gap: 16px 12px;
+        @include mq(rvs) {
+          flex-wrap: nowrap;
+        }
+        @include mq(s) {
+          margin-top: 24px;
+        }
+      }
+      &--icon-card {
+        text-align: center;
+        @include mq(s) {
+          flex-basis: 100%;
+        }
+      }
+      &--small-text {
+        @include fz(12, 10);
+        color: $text-peal;
+        margin-top: 0.6em;
+        font-weight: 400;
+        &.mt2em {
+          margin-top: 2em;
+        }
+      }
+      &--chart {
+        margin-top: 40px;
+        display: block;
+        @include mq(s) {
+          margin-top: 24px;
+        }
+      }
+      &--out {
+        background: $main-peal;
+        border-left: 6px solid $main;
+        border-right: 6px solid $main;
+        padding: 32px 40px;
+        margin-top: 40px;
+        @include mq(s) {
+          margin-top: 24px;
+          padding: 24px 12px;
+          border-width: 4px;
+        }
+      }
+      &--midashi {
+        text-align: center;
+        @include fz(20, 18);
+      }
+      &--midashi2 {
+        width: 100%;
+        padding-bottom: 12px;
+        position: relative;
+        border-bottom: 2px solid $border;
+        @include fz(26, 22);
+        font-weight: 500;
+        line-height: 26px;
+        font-weight: 500;
+        margin-top: 40px;
+        @include mq(s) {
+          line-height: 22px;
+          margin-top: 24px;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          width: 176px;
+          height: 0;
+          border-bottom: 2px solid $sub;
+        }
+      }
+      &--list {
+        margin-top: 24px;
+        padding-left: 2em;
+        list-style: disc;
+        @include mq(s) {
+          margin-top: 16px;
+        }
+      }
+      &--icons {
+        margin-top: 16px;
+        @include flex();
+        gap: 10px 20px;
+        @include mq(rvs) {
+          flex-wrap: nowrap;
+        }
+        @include mq(s) {
+          gap: 10px;
+        }
+        figure {
+          @include mq(s) {
+            flex-basis: calc(50% - 5px);
+          }
+        }
+      }
+      &--eight {
+        margin-top: 40px;
+        @include flex();
+        gap: 20px;
+        @include mq(s) {
+          margin-top: 24px;
+          gap: 10px;
+        }
+        picture {
+          display: block;
+          flex-basis: calc(100% / 4 - 20px * 3 / 4);
+          @include mq(s) {
+            flex-basis: calc(50% - 5px);
+          }
+        }
+      }
+    }
+  }
+}
